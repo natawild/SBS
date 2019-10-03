@@ -1,0 +1,5 @@
+file:/Users/user/Documents/GitHub/SBS/Aula2/ContractData.csv
+/Users/user/Documents/GitHub/SBS/Aula2/ContractData.csv
+file:/Users/user/Documents/GitHub/SBS/Aula2/CallsData.xls
+/Users/user/Documents/GitHub/SBS/Aula2/CallsData.xls
+knime://knime.workflow/data.all
