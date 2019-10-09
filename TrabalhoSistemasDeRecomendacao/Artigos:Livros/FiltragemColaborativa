@@ -1,0 +1,12 @@
+@INPROCEEDINGS{8795398,
+author={F. {Saleem} and N. {Iltaf} and H. {Afzal} and M. {Shahzad}},
+booktitle={2019 IEEE 28th International Conference on Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE)},
+title={Using Trust in Collaborative Filtering for Recommendations},
+year={2019},
+volume={},
+number={},
+pages={214-222},
+keywords={collaborative filtering;electronic commerce;pattern clustering;recommender systems;trusted computing;Web sites;collaborative filtering;recommendation quality;trusted users;active user;recommendation process;filtration process;trusted neighborhood;subspace clustering method;implicit trust;explicit trust;trust value calculation;e-commerce Web sites;trust aware recommender systems;mean absolute error;Collaborative filtering, Neighborhood filtration, Implicit trust},
+doi={10.1109/WETICE.2019.00053},
+ISSN={},
+month={June},}
