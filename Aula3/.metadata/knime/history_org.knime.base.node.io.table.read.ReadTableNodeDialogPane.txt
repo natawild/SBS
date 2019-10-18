@@ -1,0 +1,3 @@
+/Users/user/Documents/GitHub/SBS/Fichas/Aula4/lojas.table
+/Users/user/Documents/GitHub/SBS/Fichas/Aula4/data
+/Users/user/Documents/GitHub/SBS/Aula3/data.table

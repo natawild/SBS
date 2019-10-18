@@ -1,0 +1,199 @@
+
+{
+    "version":"4.0.1.v201908131317",
+    "created":"2019-10-10 09:22",
+    "nodestats":{
+        "nodes":[
+            {
+                "id":"org.knime.base.node.io.table.read.ReadTableNodeFactory#Table Reader",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":632,
+                "nrcreated":3,
+                "successor":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy"
+            },
+            {
+                "id":"org.knime.base.node.stats.dataexplorer.DataExplorerNodeFactory#Data Explorer",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":752,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory#Statistics"
+            },
+            {
+                "id":"org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory#Statistics",
+                "nrexecs":2,
+                "nrfails":0,
+                "exectime":2287,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.viz.crosstable.CrosstabNodeFactory#Crosstab (local)"
+            },
+            {
+                "id":"org.knime.base.node.viz.crosstable.CrosstabNodeFactory#Crosstab (local)",
+                "nrexecs":1,
+                "nrfails":2,
+                "exectime":480,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
+                "nrexecs":2,
+                "nrfails":0,
+                "exectime":2,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value"
+            },
+            {
+                "id":"org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
+                "nrexecs":4,
+                "nrfails":0,
+                "exectime":667,
+                "nrcreated":2,
+                "successor":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy"
+            },
+            {
+                "id":"org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory#Duplicate Row Filter",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":442,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.columnresorter.ColumnResorterNodeFactory#Column Resorter"
+            },
+            {
+                "id":"org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":498,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory#Duplicate Row Filter"
+            },
+            {
+                "id":"org.knime.base.node.preproc.columnresorter.ColumnResorterNodeFactory#Column Resorter",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":3,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.autobinner3.AutoBinnerLearnNodeFactory#Auto-Binner"
+            },
+            {
+                "id":"org.knime.base.node.preproc.binner.BinnerNodeFactory#Numeric Binner",
+                "nrexecs":5,
+                "nrfails":0,
+                "exectime":425,
+                "nrcreated":2,
+                "successor":"org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeFactory#String to Date&Time"
+            },
+            {
+                "id":"org.knime.time.node.extract.datetime.ExtractDateTimeFieldsNodeFactory#Extract Date&Time Fields",
+                "nrexecs":4,
+                "nrfails":0,
+                "exectime":1391,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory#Rule-based Row Filter"
+            },
+            {
+                "id":"org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeFactory#String to Date&Time",
+                "nrexecs":4,
+                "nrfails":1,
+                "exectime":1414,
+                "nrcreated":1,
+                "successor":"org.knime.time.node.extract.datetime.ExtractDateTimeFieldsNodeFactory#Extract Date&Time Fields"
+            },
+            {
+                "id":"org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory#Rule-based Row Filter",
+                "nrexecs":8,
+                "nrfails":0,
+                "exectime":1136,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.autobinner3.AutoBinnerLearnNodeFactory#Auto-Binner",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":2,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory#Linear Correlation",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.correlation.filter.CorrelationFilterNodeFactory#Correlation Filter"
+            },
+            {
+                "id":"org.knime.base.node.preproc.correlation.filter.CorrelationFilterNodeFactory#Correlation Filter",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy",
+                "nrexecs":4,
+                "nrfails":0,
+                "exectime":485,
+                "nrcreated":3,
+                "successor":"org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename"
+            },
+            {
+                "id":"org.knime.base.node.io.csvreader.CSVReaderNodeFactory#CSV Reader",
+                "nrexecs":2,
+                "nrfails":3,
+                "exectime":9564,
+                "nrcreated":1,
+                "successor":"org.knime.js.base.node.viz.plotter.line.LinePlotNodeFactory#Line Plot"
+            },
+            {
+                "id":"org.knime.js.base.node.viz.plotter.line.LinePlotNodeFactory#Line Plot",
+                "nrexecs":4,
+                "nrfails":0,
+                "exectime":3406,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.dynamic.js.v30.DynamicJSNodeFactory#Bar Chart",
+                "nrexecs":0,
+                "nrfails":3,
+                "exectime":30,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename",
+                "nrexecs":2,
+                "nrfails":0,
+                "exectime":3,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.js.base.node.widget.input.string.StringWidgetNodeFactory#String Widget",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
+            }
+        ],
+        "metaNodes":{
+        },
+        "wrappedNodes":{
+        }
+    },
+    "uptime":306269708,
+    "workflowsOpened":0,
+    "remoteWorkflowsOpened":0,
+    "workflowsImported":0,
+    "workflowsExported":0,
+    "launches":2,
+    "lastApplicationID":"org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart":609782431,
+    "crashes":0,
+    "properlyShutDown":false
+}

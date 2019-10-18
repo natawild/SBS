@@ -1,0 +1,10 @@
+@article{edseee.870336220180101,
+Abstract = {Collaborative filtering is one of the most effective and adequate technique used in recommendation. The fundamental aim of the recommendation is to provide prediction of the different items in which a user would be interested in based on their preferences. Recommendation systems based on collaborative filtering techniques are able to provide approximately accurate prediction when there is enough data. User based collaborative filtering taechniques have been very powerful and success in the past to recommend the items based on user’s preferences. But, there are also some certain challenges such as scalability and sparsity of data which increases as the number of users and items increases. In a large website, it is difficult to find the interested information in a certain time. But the recommendation system filter out information and items that are best suitable for us. Although there are different recommendation approaches, yet collaborative filtering technique is very popular because },
+ISSN = {978-1-5386-6373-8},
+Journal = {2018 First International Conference on Secure Cyber Computing and Communication (ICSCCC), Secure Cyber Computing and Communication (ICSCCC), 2018 First International Conference on},
+Keywords = {Communication, Networking and Broadcast Technologies, Computing and Processing, Engineering Profession, Motion pictures, Collaboration, Real-time systems, Recommender systems, Prediction algorithms, Computational modeling, Movies Recommendation, Collaborative Filtering, Item Based Collaborative Filtering},
+Pages = {340},
+Title = {Item-Based Collaborative Filtering in Movie Recommendation in Real time.},
+URL = {http://widgets.ebscohost.com/prod/customerspecific/ns000290/authentication/index.php?url=https%3a%2f%2fsearch.ebscohost.com%2flogin.aspx%3fdirect%3dtrue%26AuthType%3dip%2ccookie%2cshib%2cuid%26db%3dedseee%26AN%3dedseee.8703362%26lang%3dpt-pt%26site%3deds-live%26scope%3dsite},
+Year = {2018},
+}
