@@ -11157,3 +11157,974 @@ org.eclipse.swt.SWTException: Invalid thread access
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
+2019-11-12 10:39:28,372 : WARN  : ModalContext :  : Node : CSV Reader : 0:73:43 : Input file '/Applications/KNIME 4.0.1.app/Contents/MacOS/C:\Users\adria\OneDrive\Área de Trabalho\SBS\2ºTrabalho\dados2\zoo.csv' does not exist
+2019-11-12 10:39:28,386 : WARN  : ModalContext :  : Node : Feature Selection Loop End : 0:73:49 : There is no compatible flow variable (Double) at the inport.
+2019-11-12 10:39:28,587 : WARN  : ModalContext :  : Node : CSV Reader : 0:77:43 : Input file '/Applications/KNIME 4.0.1.app/Contents/MacOS/C:\Users\adria\OneDrive\Área de Trabalho\SBS\2ºTrabalho\dados2\zoo.csv' does not exist
+2019-11-12 10:39:28,623 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 0:77:45 : Internal model could not be loaded.
+2019-11-12 10:39:28,906 : WARN  : ModalContext :  : Node : Parameter Optimization Loop Start : 0:76:61 : Errors loading flow variables into node : Coding issue: No enum constant org.knime.optimization.internal.node.parameter.loopstart.SearchStrategies.missing
+2019-11-12 10:39:29,061 : WARN  : ModalContext :  : BoxPlotNodeModel : Box Plot (local) : 0:87 : java.io.FileNotFoundException: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Box Plot (#87)/internal/boxPlotInternals (No such file or directory)
+2019-11-12 10:39:29,066 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 0:80 : Internal model could not be loaded.
+2019-11-12 10:39:29,067 : WARN  : ModalContext :  : Node : Decision Tree Predictor : 0:84 : Internal model could not be loaded.
+2019-11-12 10:39:29,398 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: DataLoadError: ZOO.knwf 0 loaded with error during data load
+2019-11-12 10:39:29,398 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: ZOO.knwf 0
+2019-11-12 10:39:29,398 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Feature Selection 0:73
+2019-11-12 10:39:29,398 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: CSV Reader 0:73:43
+2019-11-12 10:39:29,398 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: Warning: State has changed from CONFIGURED to IDLE
+2019-11-12 10:39:29,398 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: Feature Selection Loop End 0:73:49
+2019-11-12 10:39:29,398 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: Warning: State has changed from CONFIGURED to IDLE
+2019-11-12 10:39:29,399 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Feature Selection with manual partitioning 0:77
+2019-11-12 10:39:29,399 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: CSV Reader 0:77:43
+2019-11-12 10:39:29,399 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "CSV Reader": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/CSV Reader (#43)/port_1/data.xml
+2019-11-12 10:39:29,399 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2019-11-12 10:39:29,399 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Statistics 0:77:9
+2019-11-12 10:39:29,399 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Statistics": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Statistics (#9)/port_1/data.xml
+2019-11-12 10:39:29,399 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Loading model internals failed: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Statistics (#9)/internal/statistic.xml.gz (No such file or directory)
+2019-11-12 10:39:29,399 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Color Manager 0:77:82
+2019-11-12 10:39:29,399 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Color Manager": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Color Manager (#82)/port_1/data.xml
+2019-11-12 10:39:29,399 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Missing Value 0:77:80
+2019-11-12 10:39:29,399 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Missing Value": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Missing Value (#80)/port_1/data.xml
+2019-11-12 10:39:29,399 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: GroupBy 0:77:81
+2019-11-12 10:39:29,400 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "GroupBy": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/GroupBy (#81)/port_1/data.xml
+2019-11-12 10:39:29,400 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Number To String (deprecated) 0:77:74
+2019-11-12 10:39:29,400 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Number To String (deprecated)": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Number To String (#74)/port_1/data.xml
+2019-11-12 10:39:29,400 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Rank Correlation 0:77:75
+2019-11-12 10:39:29,400 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Rank Correlation": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Rank Correlation (#75)/port_1/data.xml
+2019-11-12 10:39:29,400 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load internally held tables for node "Rank Correlation": Cannot read directory /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Rank Correlation (#75)/internalTables/object_0
+2019-11-12 10:39:29,400 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Linear Correlation 0:77:76
+2019-11-12 10:39:29,406 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Linear Correlation": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Linear Correlation (#76)/port_1/data.xml
+2019-11-12 10:39:29,410 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load internally held tables for node "Linear Correlation": Cannot read directory /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Linear Correlation (#76)/internalTables/object_0
+2019-11-12 10:39:29,411 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Feature Selection Loop Start (1:1) 0:77:44
+2019-11-12 10:39:29,411 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Feature Selection Loop Start (1:1)": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Feature Selection Loop Start _1_1_ (#44)/port_1/data.xml
+2019-11-12 10:39:29,411 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Correlation Filter 0:77:77
+2019-11-12 10:39:29,411 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Correlation Filter": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Correlation Filter (#77)/port_1/data.xml
+2019-11-12 10:39:29,411 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Partitioning 0:77:78
+2019-11-12 10:39:29,411 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Partitioning": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Partitioning (#78)/port_1/data.xml
+2019-11-12 10:39:29,411 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Decision Tree Learner 0:77:46
+2019-11-12 10:39:29,412 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Decision Tree Learner": Can't read spec file /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Decision Tree Learner (#46)/port_1/spec/spec.zip
+2019-11-12 10:39:29,412 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Decision Tree Predictor 0:77:45
+2019-11-12 10:39:29,412 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Decision Tree Predictor": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Decision Tree Predictor (#45)/port_1/data.xml
+2019-11-12 10:39:29,412 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Scorer 0:77:48
+2019-11-12 10:39:29,414 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Scorer": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Scorer (#48)/port_1/data.xml
+2019-11-12 10:39:29,414 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Loading model internals failed: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Scorer (#48)/internal/internals.xml.gz (No such file or directory)
+2019-11-12 10:39:29,414 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Feature Selection Loop End 0:77:49
+2019-11-12 10:39:29,414 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Feature Selection Loop End": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Feature Selection Loop End (#49)/port_1/data.xml
+2019-11-12 10:39:29,414 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Interactive Table (local) 0:77:51
+2019-11-12 10:39:29,415 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load internally held tables for node "Interactive Table (local)": Cannot read directory /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Interactive Table (#51)/internalTables/object_0
+2019-11-12 10:39:29,416 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Feature Selection Filter 0:77:50
+2019-11-12 10:39:29,416 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Feature Selection Filter": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Feature Selection Filter (#50)/port_1/data.xml
+2019-11-12 10:39:29,416 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Scatter Plot 0:77:83
+2019-11-12 10:39:29,416 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Scatter Plot": Can't read spec file /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Scatter Plot _JavaScript_ (#83)/port_1/spec/spec.zip
+2019-11-12 10:39:29,416 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Loading model internals failed: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Feature Sele (#77)/Scatter Plot _JavaScript_ (#83)/internal/representation.xml (No such file or directory)
+2019-11-12 10:39:29,416 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2019-11-12 10:39:29,416 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Partitioning 0:78
+2019-11-12 10:39:29,416 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Partitioning": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Partitioning (#78)/port_1/data.xml
+2019-11-12 10:39:29,416 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2019-11-12 10:39:29,416 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Box Plot (local) 0:87
+2019-11-12 10:39:29,416 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Box Plot (local)": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Box Plot (#87)/port_1/data.xml
+2019-11-12 10:39:29,416 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Box Plot (#87)/internal/boxPlotInternals (No such file or directory)
+2019-11-12 10:39:29,417 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2019-11-12 10:39:29,417 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: X-Partitioner 0:82
+2019-11-12 10:39:29,417 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "X-Partitioner": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/X_Partitioner (#82)/port_1/data.xml
+2019-11-12 10:39:29,417 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2019-11-12 10:39:29,417 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Decision Tree Learner 0:79
+2019-11-12 10:39:29,417 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Decision Tree Learner": Can't read spec file /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Decision Tree Learner (#79)/port_1/spec/spec.zip
+2019-11-12 10:39:29,417 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Interactive Table (local) 0:7
+2019-11-12 10:39:29,417 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load internally held tables for node "Interactive Table (local)": Cannot read directory /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Interactive Table (#7)/internalTables/object_0
+2019-11-12 10:39:29,417 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Decision Tree Predictor 0:80
+2019-11-12 10:39:29,417 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Decision Tree Predictor": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Decision Tree Predictor (#80)/port_1/data.xml
+2019-11-12 10:39:29,417 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Decision Tree Learner 0:83
+2019-11-12 10:39:29,417 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Decision Tree Learner": Can't read spec file /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Decision Tree Learner (#83)/port_1/spec/spec.zip
+2019-11-12 10:39:29,417 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Decision Tree Predictor 0:84
+2019-11-12 10:39:29,418 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Decision Tree Predictor": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Decision Tree Predictor (#84)/port_1/data.xml
+2019-11-12 10:39:29,418 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Interactive Table (local) 0:90
+2019-11-12 10:39:29,418 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load internally held tables for node "Interactive Table (local)": Cannot read directory /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Interactive Table (#90)/internalTables/object_0
+2019-11-12 10:39:29,418 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Scorer 0:81
+2019-11-12 10:39:29,418 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Scorer": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Scorer (#81)/port_1/data.xml
+2019-11-12 10:39:29,418 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Scorer (#81)/internal/internals.xml.gz (No such file or directory)
+2019-11-12 10:39:29,418 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Line Plot 0:91
+2019-11-12 10:39:29,418 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Line Plot": Can't read spec file /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Line Plot _JavaScript_ (#91)/port_1/spec/spec.zip
+2019-11-12 10:39:29,418 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Line Plot _JavaScript_ (#91)/internal/representation.xml (No such file or directory)
+2019-11-12 10:39:29,418 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: X-Aggregator 0:86
+2019-11-12 10:39:29,418 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "X-Aggregator": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/X_Aggregator (#86)/port_1/data.xml
+2019-11-12 10:39:29,418 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Scorer 0:85
+2019-11-12 10:39:29,419 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Scorer": No such data file: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Scorer (#85)/port_1/data.xml
+2019-11-12 10:39:29,419 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: /private/var/folders/7r/2rr_xbnd1jv7hfvcqjjr5rr80000gn/T/knime_temp_space_Celia_7231/ZOO.knwf7232/Users/user/Downloads/ZOO.knwf/Scorer (#85)/internal/internals.xml.gz (No such file or directory)
+2019-11-12 10:41:40,965 : WARN  : KNIME-Worker-3 :  : Node : GroupBy : 0:77:81 : No aggregation column defined
+2019-11-12 10:41:40,968 : WARN  : KNIME-Worker-3 :  : Node : GroupBy : 0:77:81 : No aggregation column defined
+2019-11-12 10:41:40,972 : WARN  : KNIME-Worker-3 :  : Node : GroupBy : 0:77:81 : All columns selected as group by column
+2019-11-12 10:41:41,604 : WARN  : KNIME-Worker-5 :  : Node : GroupBy : 0:77:81 : No aggregation column defined
+2019-11-12 10:41:41,604 : WARN  : KNIME-Worker-5 :  : Node : GroupBy : 0:77:81 : No aggregation column defined
+2019-11-12 10:41:41,604 : WARN  : KNIME-Worker-5 :  : Node : GroupBy : 0:77:81 : All columns selected as group by column
+2019-11-12 10:43:42,035 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,132 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,145 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,160 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,166 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,340 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,355 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,359 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,373 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,377 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,565 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,579 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,583 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,595 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,599 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,730 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,740 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,746 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,758 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,762 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,918 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,938 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,941 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,946 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,959 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:42,964 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,148 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,159 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,164 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,180 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,184 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,350 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,363 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,370 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,388 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,393 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,550 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,561 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,564 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,579 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,583 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,733 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,740 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,744 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,763 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,768 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,908 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,917 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,920 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,940 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:43,945 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,145 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,153 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,157 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,171 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,174 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,310 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,317 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,321 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,333 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,342 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,519 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,529 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,531 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,543 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,547 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,698 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,710 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,713 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,728 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,732 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,868 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,883 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,887 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,907 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:44,914 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,067 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,078 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,082 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,111 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,122 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,467 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,475 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,480 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,487 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,490 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,628 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,635 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,638 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,649 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,653 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,821 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,831 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,833 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,844 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,849 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:45,987 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,003 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,007 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,012 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,027 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,033 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,215 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,225 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,231 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,246 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,251 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,396 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,405 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,408 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,419 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,423 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,574 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,582 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,585 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,597 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,601 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,781 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,827 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,835 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,861 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:46,865 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,030 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,047 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,049 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,053 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,065 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,068 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,239 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,257 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,264 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,279 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,284 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,466 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,472 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,476 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,489 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,493 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,639 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,652 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,655 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,675 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,678 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,833 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,840 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,843 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,855 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,860 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:47,998 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,005 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,008 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,019 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,022 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,218 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,232 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,236 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,250 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,254 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,420 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,435 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,440 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,453 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,456 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,589 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,598 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,602 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,615 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,618 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,758 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,767 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,770 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,780 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,784 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,906 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,915 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,920 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,932 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:48,935 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,055 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,063 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,065 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,074 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,078 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,201 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,211 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,217 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,278 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,284 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,422 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,430 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,433 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,448 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,451 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,597 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,606 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,609 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,619 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,623 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,740 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,762 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,764 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,769 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,783 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,786 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,906 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,914 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,917 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,946 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:49,949 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,054 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,063 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,066 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,077 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,082 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,228 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,238 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,261 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,276 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,286 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,403 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,410 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,414 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,425 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,428 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,580 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,587 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,590 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,603 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,607 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,755 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,761 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,764 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,776 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,780 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,908 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,914 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,916 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,919 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,931 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:50,935 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,121 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,131 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,140 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,154 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,159 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,312 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,320 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,329 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,342 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,346 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,472 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,481 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,485 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,496 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,500 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,651 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,667 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,672 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,685 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,689 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,860 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,868 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,873 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,886 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:51,889 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,040 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,049 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,053 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,066 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,069 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,204 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,213 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,217 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,229 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,233 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,417 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,425 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,427 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,439 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,444 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,616 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,642 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,645 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,667 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,670 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,808 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,814 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,817 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,828 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,832 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,971 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,979 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,982 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,992 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:52,997 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,166 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,179 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,183 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,195 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,198 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,312 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,318 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,321 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,332 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,335 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,456 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,464 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,467 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,482 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,486 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,622 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,632 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,635 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,638 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,655 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,659 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,800 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,816 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,820 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,834 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:53,838 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,000 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,010 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,012 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,016 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,032 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,035 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,282 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,289 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,292 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,305 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,307 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,442 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,450 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,453 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,463 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,467 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,604 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,612 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,624 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,646 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,650 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,767 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,774 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,777 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,788 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,791 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,959 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,967 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,971 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,985 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:54,989 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,101 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,109 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,111 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,177 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,181 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,314 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,319 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,323 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,334 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,337 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,457 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,466 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,469 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,476 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,479 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,603 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,609 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,614 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,624 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,629 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,764 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,779 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,783 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,795 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,798 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,946 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,953 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,960 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,970 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:55,973 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,090 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,095 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,098 : WARN  : KNIME-Worker-17 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,112 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,116 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,269 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,276 : WARN  : KNIME-Worker-16 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,280 : WARN  : KNIME-Worker-2 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,290 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,293 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,417 : WARN  : KNIME-Worker-15 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,424 : WARN  : KNIME-Worker-11 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,429 : WARN  : KNIME-Worker-14 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,439 : WARN  : KNIME-Worker-13 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,442 : WARN  : KNIME-Worker-18 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:43:56,558 : WARN  : KNIME-Worker-12 :  : Node : GroupBy : 0:76:68 : No grouping column included. Aggregate complete table.
+2019-11-12 10:58:36,151 : WARN  : main :  : Node : GroupBy : 5:26 : No grouping column included. Aggregate complete table.
+2019-11-12 10:58:36,153 : WARN  : main :  : Node : Random Forest Learner : 5:28 : Errors loading flow variables into node : Unable to parse split criterion "missing"
+2019-11-12 10:58:36,159 : WARN  : main :  : Node : Random Forest Learner : 5:28 : Errors loading flow variables into node : Unable to parse split criterion "missing"
+2019-11-12 10:58:36,160 : WARN  : main :  : Node : Random Forest Learner : 5:30 : 1 column(s) were ignored due to missing domain information: ["record_date"] -- change the node configuration or use a Domain Calculator node to fix it
+2019-11-12 10:58:36,163 : WARN  : main :  : Node : Random Forest Learner : 5:28 : Errors loading flow variables into node : Unable to parse split criterion "missing"
+2019-11-12 10:58:36,164 : WARN  : main :  : Node : CSV Writer : 5:17 : Output file '/Users/user/Desktop/predTraRF.csv' exists and will be overwritten
+2019-11-12 10:58:36,165 : WARN  : main :  : Node : Random Forest Learner : 5:28 : Errors loading flow variables into node : Unable to parse split criterion "missing"
+2019-11-12 10:58:36,166 : WARN  : main :  : Node : Random Forest Learner : 5:30 : 1 column(s) were ignored due to missing domain information: ["record_date"] -- change the node configuration or use a Domain Calculator node to fix it
+2019-11-12 10:58:36,167 : WARN  : main :  : Node : Random Forest Learner : 5:28 : Errors loading flow variables into node : Unable to parse split criterion "missing"
+2019-11-12 10:58:36,168 : WARN  : main :  : Node : CSV Writer : 5:17 : Output file '/Users/user/Desktop/predTraRF.csv' exists and will be overwritten
+2019-11-12 11:01:19,710 : WARN  : ModalContext :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 11:02:12,342 : WARN  : main :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-12 11:02:12,343 : WARN  : main :  : Node : Decision Tree Learner : 3:5 : Errors overwriting node settings with flow variables: Unable to parse "missing" (variable "Reduced_p") as boolean expression (settings parameter "enableReducedErrorPruning")
+2019-11-12 11:02:27,462 : WARN  : main :  : Node : Feature Selection Loop Start (1:1) : 3:28 : No constant columns selected. Are you sure you don't need a target column?
+2019-11-12 11:05:46,977 : WARN  : KNIME-Worker-23 :  : Node : Random Forest Learner : 5:30 : 1 column(s) were ignored due to missing domain information: ["record_date"] -- change the node configuration or use a Domain Calculator node to fix it
+2019-11-12 11:05:46,984 : WARN  : KNIME-Worker-23 :  : Node : Feature Selection Loop Start (1:1) : 5:43 : No constant columns selected. Are you sure you don't need a target column?
+2019-11-12 11:05:46,993 : WARN  : KNIME-Worker-23 :  : WorkflowManager : CSV Reader : 5:3 : Unable to merge flow object stacks: Conflicting FlowObjects: <Loop Context (Head 5:11, Tail unassigned)> - iteration 0 vs. <Loop Context (Head 5:43, Tail unassigned)> - iteration 0 (loops/scopes not properly nested?)
+org.knime.core.node.workflow.IllegalFlowObjectStackException: Conflicting FlowObjects: <Loop Context (Head 5:11, Tail unassigned)> - iteration 0 vs. <Loop Context (Head 5:43, Tail unassigned)> - iteration 0 (loops/scopes not properly nested?)
+	at org.knime.core.node.workflow.FlowObjectStack.merge(FlowObjectStack.java:239)
+	at org.knime.core.node.workflow.FlowObjectStack.<init>(FlowObjectStack.java:181)
+	at org.knime.core.node.workflow.FlowObjectStack.<init>(FlowObjectStack.java:151)
+	at org.knime.core.node.workflow.WorkflowManager.createAndSetFlowObjectStackFor(WorkflowManager.java:5979)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:5841)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6081)
+	at org.knime.core.node.workflow.WorkflowManager.doAfterExecution(WorkflowManager.java:3147)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteFinished(NodeContainer.java:555)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:209)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:110)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:328)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:204)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2019-11-12 11:05:46,999 : WARN  : KNIME-Worker-23 :  : Node : CSV Writer : 5:17 : Output file '/Users/user/Desktop/predTraRF.csv' exists and will be overwritten
+2019-11-12 11:05:58,472 : WARN  : main :  : WorkflowManager :  :  : Unable to merge flow object stacks: Conflicting FlowObjects: <Loop Context (Head 5:34, Tail unassigned)> - iteration 0 vs. <Loop Context (Head 5:43, Tail unassigned)> - iteration 0 (loops/scopes not properly nested?)
+org.knime.core.node.workflow.IllegalFlowObjectStackException: Conflicting FlowObjects: <Loop Context (Head 5:34, Tail unassigned)> - iteration 0 vs. <Loop Context (Head 5:43, Tail unassigned)> - iteration 0 (loops/scopes not properly nested?)
+	at org.knime.core.node.workflow.FlowObjectStack.merge(FlowObjectStack.java:239)
+	at org.knime.core.node.workflow.FlowObjectStack.<init>(FlowObjectStack.java:181)
+	at org.knime.core.node.workflow.FlowObjectStack.<init>(FlowObjectStack.java:151)
+	at org.knime.core.node.workflow.WorkflowManager.createAndSetFlowObjectStackFor(WorkflowManager.java:5979)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:5841)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndPortSuccessors(WorkflowManager.java:6081)
+	at org.knime.core.node.workflow.WorkflowManager.configureNodeAndSuccessors(WorkflowManager.java:6024)
+	at org.knime.core.node.workflow.WorkflowManager.removeConnection(WorkflowManager.java:1349)
+	at org.knime.core.node.workflow.WorkflowManager.removeNode(WorkflowManager.java:802)
+	at org.knime.core.ui.wrapper.WorkflowManagerWrapper.remove(WorkflowManagerWrapper.java:137)
+	at org.knime.core.ui.wrapper.WorkflowManagerWrapper.cut(WorkflowManagerWrapper.java:414)
+	at org.knime.workbench.editor2.commands.DeleteCommand.lambda$0(DeleteCommand.java:242)
+	at org.knime.workbench.ui.async.AsyncUtil.wfmAsyncSwitchRethrow(AsyncUtil.java:200)
+	at org.knime.workbench.editor2.commands.DeleteCommand.execute(DeleteCommand.java:242)
+	at org.eclipse.gef.commands.CompoundCommand.execute(CompoundCommand.java:129)
+	at org.knime.workbench.editor2.commands.VerifyingCompoundCommand.execute(VerifyingCompoundCommand.java:134)
+	at org.eclipse.gef.commands.CommandStack.execute(CommandStack.java:228)
+	at org.eclipse.gef.ui.actions.WorkbenchPartAction.execute(WorkbenchPartAction.java:83)
+	at org.eclipse.gef.ui.actions.DeleteAction.run(DeleteAction.java:133)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:118)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:305)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:239)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:287)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:527)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:577)
+	at org.eclipse.e4.ui.bindings.keys.OutOfOrderListener.handleEvent(OutOfOrderListener.java:72)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4258)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1502)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1525)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1510)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1539)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Canvas.sendKeyEvent(Canvas.java:518)
+	at org.eclipse.swt.widgets.Control.doCommandBySelector(Control.java:1090)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5891)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSResponder.interpretKeyEvents(NSResponder.java:68)
+	at org.eclipse.swt.widgets.Composite.keyDown(Composite.java:601)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5801)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:228)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2148)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2411)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5863)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5291)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5441)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:128)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3696)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:149)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+2019-11-12 11:05:58,473 : WARN  : main :  : Node : X-Partitioner : 5:24 : Class column 'AVERAGE_SPEED_DIFF' does not exist in input table
+2019-11-12 11:07:00,035 : WARN  : main :  : Node : Random Forest Learner : 5:28 : Errors overwriting node settings with flow variables: Unknown variable "Prof_arvore"
+2019-11-12 11:07:00,883 : WARN  : main :  : Node : Random Forest Learner : 5:28 : Errors overwriting node settings with flow variables: Unknown variable "Prof_arvore"
+2019-11-12 11:07:15,747 : WARN  : KNIME-Worker-24 :  : Node : Missing Value : 5:32 : Column "AVERAGE_CLOUDINESS" still contains missing values.
+2019-11-12 11:07:15,765 : WARN  : KNIME-Worker-25 :  : Node : Random Forest Learner : 5:30 : 1 column(s) were ignored due to missing domain information: ["record_date"] -- change the node configuration or use a Domain Calculator node to fix it
+2019-11-12 11:07:16,232 : WARN  : KNIME-Worker-26 :  : Node : Feature Selection Loop Start (1:1) : 5:43 : No constant columns selected. Are you sure you don't need a target column?
+2019-11-12 11:07:16,239 : WARN  : KNIME-Worker-26 :  : Node : Random Forest Learner : 5:28 : Errors overwriting node settings with flow variables: Unknown variable "Prof_arvore"
+2019-11-12 11:07:16,526 : WARN  : KNIME-Worker-27 :  : Node : Feature Selection Loop Start (1:1) : 5:43 : No constant columns selected. Are you sure you don't need a target column?
+2019-11-12 11:07:16,539 : WARN  : KNIME-Worker-27 :  : Node : X-Partitioner : 5:24 : Class column 'AVERAGE_TIME_DIFF' does not exist in input table
+2019-11-12 11:07:16,540 : WARN  : KNIME-Worker-31 :  : Node : X-Partitioner : 5:24 : Class column 'AVERAGE_TIME_DIFF' does not exist in input table
+2019-11-12 11:08:10,831 : WARN  : main :  : Node : X-Partitioner : 5:24 : Class column 'AVERAGE_TIME_DIFF' does not exist in input table
+2019-11-12 11:08:11,906 : WARN  : main :  : Node : Random Forest Learner : 5:28 : Errors overwriting node settings with flow variables: Unknown variable "Prof_arvore"
+2019-11-12 11:08:19,764 : WARN  : KNIME-Worker-28 :  : Node : Random Forest Learner : 5:28 : Errors overwriting node settings with flow variables: Unknown variable "Prof_arvore"
+2019-11-12 11:08:19,896 : WARN  : KNIME-Worker-24 :  : Node : Random Forest Learner : 5:28 : Errors overwriting node settings with flow variables: Unknown variable "Prof_arvore"
+2019-11-12 11:08:23,758 : WARN  : KNIME-Worker-26 :  : Node : Random Forest Learner : 5:30 : 1 column(s) were ignored due to missing domain information: ["record_date"] -- change the node configuration or use a Domain Calculator node to fix it
+2019-11-12 11:08:24,391 : WARN  : KNIME-Worker-31 :  : Node : CSV Writer : 5:17 : Output file '/Users/user/Desktop/predTraRF.csv' exists and will be overwritten
+2019-11-12 11:08:24,394 : WARN  : KNIME-Worker-28 :  : Node : CSV Writer : 5:17 : Output file '/Users/user/Desktop/predTraRF.csv' exists and will be overwritten
+2019-11-12 11:09:06,570 : WARN  : main :  : Node : Decision Tree Learner : 5:44 : Guessing target column: "Month (name)".
+2019-11-12 11:11:16,028 : WARN  : main :  : Node : Scorer : 5:46 : No columns selected yet.
+2019-11-12 11:13:19,862 : WARN  : main :  : Node : Feature Selection Loop End : 5:47 : The defined score variable "" is not contained in the input flow variables.
+2019-11-12 11:13:21,170 : WARN  : main :  : Node : Feature Selection Loop End : 5:47 : The defined score variable "" is not contained in the input flow variables.
+2019-11-12 11:15:35,369 : WARN  : KNIME-Worker-39 :  : Node : Scorer : 5:46 : There were missing values in the reference or in the prediction class columns.
+2019-11-12 11:15:35,374 : WARN  : KNIME-Worker-35 :  : Node : X-Partitioner : 5:24 : Class column 'AVERAGE_TIME_DIFF' does not exist in input table
+2019-11-12 11:16:03,688 : WARN  : KNIME-Worker-38 :  : Node : Scorer : 5:46 : There were missing values in the reference or in the prediction class columns.
+2019-11-12 11:16:07,047 : WARN  : KNIME-Worker-39 :  : Node : Scorer : 5:46 : There were missing values in the reference or in the prediction class columns.
+2019-11-12 11:16:11,949 : WARN  : KNIME-Worker-38 :  : Node : Scorer : 5:46 : There were missing values in the reference or in the prediction class columns.
+2019-11-12 11:16:14,574 : WARN  : KNIME-Worker-36 :  : Node : Scorer : 5:46 : There were missing values in the reference or in the prediction class columns.
+2019-11-12 11:16:34,088 : WARN  : KNIME-Worker-32 :  : Node : Scorer : 5:46 : There were missing values in the reference or in the prediction class columns.
+2019-11-12 11:16:39,057 : WARN  : KNIME-Worker-36 :  : Node : Scorer : 5:46 : There were missing values in the reference or in the prediction class columns.
+2019-11-12 11:16:41,978 : WARN  : KNIME-Worker-33 :  : Node : Scorer : 5:46 : There were missing values in the reference or in the prediction class columns.
+2019-11-12 11:16:48,427 : WARN  : KNIME-Worker-40 :  : Node : Scorer : 5:46 : There were missing values in the reference or in the prediction class columns.
+2019-11-12 11:16:59,077 : WARN  : KNIME-Worker-34 :  : Node : Scorer : 5:46 : There were missing values in the reference or in the prediction class columns.
+2019-11-12 11:17:20,555 : WARN  : KNIME-Worker-32 :  : Node : Scorer : 5:46 : There were missing values in the reference or in the prediction class columns.
+2019-11-12 11:17:22,799 : WARN  : KNIME-Worker-37 :  : Node : Scorer : 5:46 : There were missing values in the reference or in the prediction class columns.
+2019-11-12 11:17:32,822 : WARN  : KNIME-Worker-34 :  : Node : Scorer : 5:46 : There were missing values in the reference or in the prediction class columns.
+2019-11-12 11:17:39,233 : WARN  : KNIME-Worker-32 :  : Node : Scorer : 5:46 : There were missing values in the reference or in the prediction class columns.
+2019-11-12 11:17:51,453 : WARN  : KNIME-Worker-40 :  : Node : Feature Selection Filter : 5:48 : No features selected yet
+2019-11-12 11:25:19,469 : WARN  : KNIME-Worker-41 :  : Node : Statistics : 5:49 : Maximum number of unique possible values (1000) exceeds for column(s): "record_date"
+2019-11-12 11:51:34,026 : WARN  : main :  : Node : CSV Writer : 5:17 : Output file '/Users/user/Desktop/predTraRF.csv' exists and will be overwritten
+2019-11-12 11:54:05,892 : WARN  : KNIME-Worker-60 :  : Node : Statistics : 5:50 : Maximum number of unique possible values (1000) exceeds for column(s): "record_date"
+2019-11-12 11:54:15,191 : WARN  : KNIME-Worker-62 :  : Node : Statistics : 5:50 : Maximum number of unique possible values (1000) exceeds for column(s): "record_date"
+2019-11-12 11:58:53,683 : WARN  : main :  : Node : Parameter Optimization Loop Start : 5:61 : Errors loading flow variables into node : Coding issue: No enum constant org.knime.optimization.internal.node.parameter.loopstart.SearchStrategies.missing
+2019-11-12 11:59:02,731 : WARN  : main :  : Node : Parameter Optimization Loop Start : 5:61 : Errors loading flow variables into node : Coding issue: No enum constant org.knime.optimization.internal.node.parameter.loopstart.SearchStrategies.missing
+2019-11-12 11:59:57,142 : WARN  : main :  : Node : Random Forest Learner : 6:30 : 1 column(s) were ignored due to missing domain information: ["record_date"] -- change the node configuration or use a Domain Calculator node to fix it
+2019-11-12 11:59:57,145 : WARN  : main :  : Node : CSV Writer : 6:17 : Output file '/Users/user/Desktop/predTraRF.csv' exists and will be overwritten
+2019-11-12 11:59:58,115 : WARN  : main :  : Node : Random Forest Learner : 6:30 : 1 column(s) were ignored due to missing domain information: ["record_date"] -- change the node configuration or use a Domain Calculator node to fix it
+2019-11-12 11:59:58,118 : WARN  : main :  : Node : CSV Writer : 6:17 : Output file '/Users/user/Desktop/predTraRF.csv' exists and will be overwritten
+2019-11-12 11:59:59,570 : WARN  : KNIME-Worker-69 :  : NodeContainer : Random Forest Predictor : 6:29 : Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+org.knime.core.node.workflow.IllegalFlowObjectStackException: Can't continue loop as the workflow was restored with the loop being partially executed. Reset loop start and execute entire loop again.
+	at org.knime.core.node.workflow.WorkflowManager.doBeforeExecution(WorkflowManager.java:2937)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteStart(NodeContainer.java:526)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:149)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:110)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:328)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:204)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2019-11-12 12:00:01,802 : WARN  : KNIME-Worker-68 :  : Node : Random Forest Learner : 6:30 : 1 column(s) were ignored due to missing domain information: ["record_date"] -- change the node configuration or use a Domain Calculator node to fix it
+2019-11-12 12:00:02,166 : WARN  : KNIME-Worker-68 :  : Node : CSV Writer : 6:17 : Output file '/Users/user/Desktop/predTraRF.csv' exists and will be overwritten
+2019-11-12 12:00:02,169 : WARN  : KNIME-Worker-75 :  : Node : CSV Writer : 6:17 : Output file '/Users/user/Desktop/predTraRF.csv' exists and will be overwritten
+2019-11-12 12:02:23,917 : WARN  : main :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:02:23,921 : WARN  : main :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:02:23,922 : WARN  : main :  : Node : Random Forest Learner : 6:28 : Errors loading flow variables into node : Unable to parse split criterion "missing"
+2019-11-12 12:02:28,955 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:02:28,959 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:02:36,608 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:02:36,634 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:02:50,940 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:02:50,966 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:02:51,971 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:02:52,020 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:01,727 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:01,741 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:02,604 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:02,627 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:10,126 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:10,139 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:11,159 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:11,178 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:21,154 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:21,159 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:22,453 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:22,488 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:32,727 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:32,732 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:33,251 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:33,271 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:38,450 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:38,455 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:39,374 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:39,393 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:48,443 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:48,448 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:49,624 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:03:49,642 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:00,846 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:00,853 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:01,749 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:01,770 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:11,649 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:11,663 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:12,799 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:12,818 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:23,915 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:23,922 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:25,208 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:25,226 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:35,607 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:35,616 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:35,931 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:35,949 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:39,150 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:39,154 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:40,114 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:40,132 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:50,004 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:50,009 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:50,944 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:04:50,965 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:01,118 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:01,124 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:02,107 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:02,124 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:11,564 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:11,570 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:12,813 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:12,838 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:23,586 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:23,596 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:24,884 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:24,902 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:34,781 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:34,785 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:35,588 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:35,612 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:44,214 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:44,219 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:45,117 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:45,144 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:53,809 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:53,814 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:54,811 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:05:54,832 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:04,022 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:04,078 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:04,079 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:04,839 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:04,857 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:12,096 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:12,117 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:12,741 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:12,763 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:18,277 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:18,285 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:18,799 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:18,816 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:23,819 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:23,825 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:24,753 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:24,774 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:34,608 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:34,614 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:35,704 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:35,721 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:49,287 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:49,303 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:49,787 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:49,804 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:54,305 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:54,309 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:55,211 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:06:55,229 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:03,857 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:03,861 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:05,051 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:05,081 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:16,151 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:16,172 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:16,938 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:16,956 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:24,651 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:24,656 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:25,830 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:25,848 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:35,775 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:35,779 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:36,745 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:36,770 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:47,627 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:47,631 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:47,989 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:48,006 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:51,160 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:51,164 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:52,350 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:07:52,369 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:04,693 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:04,700 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:05,831 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:05,847 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:18,379 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:18,386 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:19,446 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:19,463 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:32,349 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:32,353 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:33,616 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:33,631 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:48,449 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:48,455 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:49,803 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:08:49,828 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:04,195 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:04,201 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:05,461 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:05,496 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:16,364 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:16,369 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:17,621 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:17,640 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:30,150 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:30,172 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:31,731 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:31,751 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:46,728 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:46,800 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:46,801 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:49,125 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:09:49,147 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:02,803 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:02,811 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:03,903 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:03,927 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:13,850 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:13,863 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:14,710 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:14,737 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:22,631 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:22,637 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:24,010 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:24,032 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:36,397 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:36,418 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:37,637 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:37,662 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:50,362 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:50,367 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:50,862 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:50,879 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:55,541 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:55,545 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:56,430 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:10:56,447 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:06,082 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:06,087 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:07,117 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:07,136 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:16,804 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:16,811 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:17,870 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:17,893 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:26,231 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:26,245 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:27,171 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:27,189 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:37,811 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:37,819 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:38,817 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:38,834 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:48,548 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:48,552 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:48,825 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:48,842 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:51,631 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:51,635 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:52,535 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:11:52,551 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:02,374 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:02,379 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:03,502 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:03,521 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:13,832 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:13,839 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:15,547 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:15,569 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:26,378 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:26,386 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:27,516 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:27,551 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:37,871 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:37,876 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:38,784 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:38,806 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:48,571 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:48,577 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:49,314 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:49,331 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:58,559 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:58,568 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:59,767 : WARN  : KNIME-Worker-77 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:12:59,792 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:10,963 : WARN  : KNIME-Worker-80 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:10,967 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:12,094 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:12,120 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:24,408 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:24,426 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:25,590 : WARN  : KNIME-Worker-83 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:25,611 : WARN  : KNIME-Worker-79 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:38,149 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:38,156 : WARN  : KNIME-Worker-81 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:39,477 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:39,499 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:52,026 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:52,033 : WARN  : KNIME-Worker-84 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:53,239 : WARN  : KNIME-Worker-85 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:13:53,263 : WARN  : KNIME-Worker-78 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 12:14:05,309 : WARN  : KNIME-Worker-82 :  : Node : GroupBy : 6:26 : No grouping column included. Aggregate complete table.
+2019-11-12 14:13:05,865 : WARN  : main :  : Node : CSV Reader : 0:1 : No settings available
+2019-11-12 14:13:34,360 : ERROR : KNIME-Worker-3 :  : Node : CSV Reader : 0:1 : Execute failed: Encountered duplicate row ID "7.8"
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "7.8"
+	at org.knime.core.data.container.DataContainer.checkAsyncWriteThrowable(DataContainer.java:466)
+	at org.knime.core.data.container.DataContainer.close(DataContainer.java:574)
+	at org.knime.core.node.ExecutionContext.createBufferedDataTable(ExecutionContext.java:268)
+	at org.knime.base.node.io.csvreader.CSVReaderNodeModel.execute(CSVReaderNodeModel.java:130)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:733)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:567)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1192)
+	at org.knime.core.node.Node.execute(Node.java:979)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:179)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:110)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:328)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:204)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "7.8"
+	at org.knime.core.data.container.DataContainer.addRowKeyForDuplicateCheck(DataContainer.java:848)
+	at org.knime.core.data.container.DataContainer$ContainerRunnable.run(DataContainer.java:1227)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-12 14:16:16,380 : WARN  : ModalContext :  : Node : GroupBy : 3:108 : No grouping column included. Aggregate complete table.
+2019-11-12 14:17:18,640 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: Error: 01_Simple_Streaming_and_Wrapped_Nodes 4 loaded with errors
+2019-11-12 14:17:18,643 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Error: 01_Simple_Streaming_and_Wrapped_Nodes 4
+2019-11-12 14:17:18,643 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: wrapped node with ID suffix 5
+2019-11-12 14:17:18,643 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Can't restore node execution job manager: Unknown job manager factory id "org.knime.core.streaming.SimpleStreamerNodeExecutionJobManagerFactory" (job manager factory possibly not installed?)
+2019-11-12 14:17:18,643 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: wrapped node with ID suffix 6
+2019-11-12 14:17:18,643 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Can't restore node execution job manager: Unknown job manager factory id "org.knime.core.streaming.SimpleStreamerNodeExecutionJobManagerFactory" (job manager factory possibly not installed?)

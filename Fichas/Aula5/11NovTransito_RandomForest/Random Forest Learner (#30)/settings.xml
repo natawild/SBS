@@ -9,8 +9,8 @@
 <entry key="targetColumn" type="xstring" value="AVERAGE_SPEED_DIFF"/>
 <entry key="seed" type="xstring" value="4226807210036653651"/>
 <entry key="maxLevels" type="xint" value="26"/>
-<entry key="minNodeSize" type="xint" value="-1"/>
-<entry key="minChildSize" type="xint" value="-1"/>
+<entry key="minNodeSize" type="xint" value="4"/>
+<entry key="minChildSize" type="xint" value="2"/>
 <entry key="dataFraction" type="xdouble" value="1.0"/>
 <entry key="isDataSelectionWithReplacement" type="xboolean" value="true"/>
 <entry key="hardCodedRootColumn" type="xstring" isnull="true" value=""/>
@@ -121,6 +121,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" value="filestore"/>
-<entry key="file_store_id" type="xstring" value="238f818b-73d3-4091-bbdb-d2799955fe0c"/>
+<entry key="file_store_id" type="xstring" value="a6b6405b-cab3-4a5a-9719-1814b9a45639"/>
 </config>
 </config>
