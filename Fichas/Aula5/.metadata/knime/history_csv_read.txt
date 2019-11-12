@@ -1,0 +1,3 @@
+/Users/user/Documents/GitHub/SBS/Fichas/Aula5/Ficha5/test_data.csv
+/Users/user/Documents/GitHub/SBS/Fichas/Aula5/Ficha5/training_data.csv
+/Applications/KNIME 4.0.1.app/Contents/MacOS/C:\Users\linin\OneDrive\Área de Trabalho\sbs_sub.csv

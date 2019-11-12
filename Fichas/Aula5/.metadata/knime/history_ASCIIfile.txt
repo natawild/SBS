@@ -1,0 +1,2 @@
+knime://knime.workflow/data/iris.data
+knime://knime.workflow/data.all
