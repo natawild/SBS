@@ -3,9 +3,9 @@
 <config key="filestore_keys">
 <config key="filestore_key_0">
 <entry key="storeUUID" type="xstring" value="bff14307-04ae-4a54-a323-6622f226e22b"/>
-<entry key="index" type="xint" value="0"/>
-<entry key="name" type="xstring" value="e55f7abb-8af7-434a-999d-e2edb1040745"/>
-<entry key="iterationIndex" type="xint" value="0"/>
+<entry key="index" type="xint" value="670"/>
+<entry key="name" type="xstring" value="053a1326-67c8-4a9e-a591-a88be4ee5354"/>
+<entry key="iterationIndex" type="xint" value="10"/>
 <config key="nestedLoopPath">
 <entry key="array-size" type="xint" value="2"/>
 <entry key="0" type="xbyte" value="0"/>
