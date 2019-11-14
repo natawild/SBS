@@ -1,4 +1,4 @@
+knime://knime.workflow/data.all
 knime://knime.workflow/data/random_numbers.csv
 knime://knime.workflow/data/sales_records.csv
-knime://knime.workflow/data.all
 knime://knime.workflow/data/iris.data

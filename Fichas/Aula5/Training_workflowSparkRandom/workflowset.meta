@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">dewi</met:element>
+<met:element form="date" read-only="false" name="Creation Date">7/1/2019/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Taxi Demand Prediction Training Workflow
+
+In this use case, we use the NYC taxi dataset and a Random Forest to train a simple time series prediction model to predict taxi demand in the next hour based on data from past hours. For better scalability, we will train and test the model on a Spark cluster. 
+
+TAGS: Demand prediction,random forest,time series prediction,Spark cluster,NYC taxi datset,IoT,Internet of Things</met:element>
+</met:KNIMEMetaInfo>

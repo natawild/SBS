@@ -1,2 +1,5 @@
+/Users/user/Desktop/14Novv1.csv
+/Users/user/Desktop/predDT.csv
+/Users/user/Desktop/12Nov.csv
 /Users/user/Desktop/predTraRF.csv
 /Users/user/Desktop/resultados.csv

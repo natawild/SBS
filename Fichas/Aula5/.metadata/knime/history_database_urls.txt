@@ -1,0 +1,1 @@
+jdbc:hive2://localhost:49885/
