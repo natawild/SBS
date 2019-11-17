@@ -65,15 +65,15 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="binaryNominalSplit" type="xboolean" value="false"/>
+<entry key="binaryNominalSplit" type="xboolean" value="true"/>
 <config key="maxNumNominalValues_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-<entry key="EnabledStatus" type="xboolean" value="false"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="maxNumNominalValues" type="xint" value="10"/>
 <config key="FilterNominalValuesFromParent_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="false"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="FilterNominalValuesFromParent" type="xboolean" value="false"/>
 <config key="CFG_NOTRUECHILD_Internals">
@@ -116,6 +116,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="0728691c-f31d-4680-a017-b75337d9d339"/>
+<entry key="file_store_id" type="xstring" value="c8565669-98bc-4545-b8c7-afe727ad11be"/>
 </config>
 </config>

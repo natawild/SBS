@@ -18,8 +18,8 @@
 <entry key="columnFractionPerTree" type="xdouble" value="1.0"/>
 <entry key="columnAbsolutePerTree" type="xint" value="10"/>
 <entry key="isUseDifferentAttributesAtEachNode" type="xboolean" value="true"/>
-<entry key="nrModels" type="xint" value="100"/>
-<entry key="splitCriterion" type="xstring" value="InformationGainRatio"/>
+<entry key="nrModels" type="xint" value="600"/>
+<entry key="splitCriterion" type="xstring" value="Gini"/>
 <entry key="missingValueHandling" type="xstring" value="XGBoost"/>
 <entry key="useAverageSplitPoints" type="xboolean" value="true"/>
 <entry key="useBinaryNominalSplits" type="xboolean" value="true"/>
@@ -63,24 +63,6 @@
 <entry key="saveTargetDistributionInNodes" type="xboolean" value="false"/>
 <entry key="rowSamplingMode" type="xstring" value="Random"/>
 </config>
-<config key="variables">
-<config key="maxLevels">
-<entry key="used_variable" type="xstring" value="prof"/>
-<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
-</config>
-<config key="minNodeSize">
-<entry key="used_variable" type="xstring" value="node"/>
-<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
-</config>
-<config key="nrModels">
-<entry key="used_variable" type="xstring" value="nr_models"/>
-<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
-</config>
-<config key="splitCriterion">
-<entry key="used_variable" type="xstring" value="split_crit"/>
-<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
-</config>
-</config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.randomforest.learner.classification.RandomForestClassificationLearnerNodeFactory2"/>
@@ -116,7 +98,7 @@
 <entry key="index" type="xint" value="3"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.TreeEnsembleModelPortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.TreeEnsembleModelPortObject"/>
-<entry key="port_object_summary" type="xstring" value="500 classifiers on 9 attributes"/>
+<entry key="port_object_summary" type="xstring" value="600 classifiers on 9 attributes"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_3"/>

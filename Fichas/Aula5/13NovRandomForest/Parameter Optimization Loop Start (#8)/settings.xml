@@ -15,13 +15,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="node"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1"/>
+<entry key="value" type="xint" value="4"/>
 </config>
 <config key="Variable_3">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="nr_models"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="100"/>
+<entry key="value" type="xint" value="500"/>
 </config>
 <config key="Variable_4">
 <entry key="type" type="xstring" value="variable"/>
@@ -36,25 +36,25 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="prof"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="25"/>
+<entry key="value" type="xint" value="20"/>
 </config>
 <config key="Variable_7">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="node"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="5"/>
+<entry key="value" type="xint" value="8"/>
 </config>
 <config key="Variable_8">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="nr_models"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="500"/>
+<entry key="value" type="xint" value="700"/>
 </config>
 <config key="Variable_9">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="iteration"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="324"/>
+<entry key="value" type="xint" value="119"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -65,21 +65,21 @@
 <config key="parameter_0">
 <entry key="name" type="xstring" value="prof"/>
 <entry key="from" type="xdouble" value="13.0"/>
-<entry key="to" type="xdouble" value="25.0"/>
+<entry key="to" type="xdouble" value="20.0"/>
 <entry key="step" type="xdouble" value="1.0"/>
 <entry key="integer" type="xboolean" value="true"/>
 </config>
 <config key="parameter_1">
 <entry key="name" type="xstring" value="node"/>
-<entry key="from" type="xdouble" value="1.0"/>
-<entry key="to" type="xdouble" value="5.0"/>
+<entry key="from" type="xdouble" value="4.0"/>
+<entry key="to" type="xdouble" value="8.0"/>
 <entry key="step" type="xdouble" value="1.0"/>
 <entry key="integer" type="xboolean" value="true"/>
 </config>
 <config key="parameter_2">
 <entry key="name" type="xstring" value="nr_models"/>
-<entry key="from" type="xdouble" value="100.0"/>
-<entry key="to" type="xdouble" value="500.0"/>
+<entry key="from" type="xdouble" value="500.0"/>
+<entry key="to" type="xdouble" value="700.0"/>
 <entry key="step" type="xdouble" value="100.0"/>
 <entry key="integer" type="xboolean" value="true"/>
 </config>
@@ -123,7 +123,7 @@
 </config>
 </config>
 <config key="filestores">
-<entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_location" type="xstring" value="filestore"/>
+<entry key="file_store_id" type="xstring" value="bc0e9494-193a-49d1-837a-fbb73aac3ddc"/>
 </config>
 </config>

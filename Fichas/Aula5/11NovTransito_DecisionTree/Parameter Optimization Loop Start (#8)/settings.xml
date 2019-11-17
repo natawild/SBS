@@ -9,7 +9,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Criterio_paragem"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="12"/>
+<entry key="value" type="xint" value="6"/>
 </config>
 <config key="Variable_2">
 <entry key="type" type="xstring" value="variable"/>
@@ -24,13 +24,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Criterio_paragem"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="20"/>
+<entry key="value" type="xint" value="13"/>
 </config>
 <config key="Variable_5">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="iteration"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="8"/>
+<entry key="value" type="xint" value="7"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -40,8 +40,8 @@
 <entry key="parameters" type="xint" value="1"/>
 <config key="parameter_0">
 <entry key="name" type="xstring" value="Criterio_paragem"/>
-<entry key="from" type="xdouble" value="12.0"/>
-<entry key="to" type="xdouble" value="20.0"/>
+<entry key="from" type="xdouble" value="6.0"/>
+<entry key="to" type="xdouble" value="13.0"/>
 <entry key="step" type="xdouble" value="1.0"/>
 <entry key="integer" type="xboolean" value="true"/>
 </config>
