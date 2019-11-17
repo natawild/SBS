@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="boxPlotInternals">
+<entry key="numberOf" type="xint" value="9"/>
+<config key="colSpec0">
+<entry key="column_name" type="xstring" value="AVERAGE_FREE_FLOW_SPEED"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="30.5"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="55.9"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec1">
+<entry key="column_name" type="xstring" value="AVERAGE_TIME_DIFF"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="296.5"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec2">
+<entry key="column_name" type="xstring" value="AVERAGE_FREE_FLOW_TIME"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="46.4"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="112.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec3">
+<entry key="column_name" type="xstring" value="AVERAGE_TEMPERATURE"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="35.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec4">
+<entry key="column_name" type="xstring" value="AVERAGE_ATMOSP_PRESSURE"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="985.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="1033.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec5">
+<entry key="column_name" type="xstring" value="AVERAGE_HUMIDITY"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="14.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="100.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec6">
+<entry key="column_name" type="xstring" value="AVERAGE_WIND_SPEED"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="14.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec7">
+<entry key="column_name" type="xstring" value="AVERAGE_PRECIPITATION"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="colSpec8">
+<entry key="column_name" type="xstring" value="Max-real(previsao)"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="-7.105427357601002E-15"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="37.994322789943226"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="statsAVERAGE_FREE_FLOW_SPEED">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="31.1"/>
+<entry key="1" type="xdouble" value="31.1"/>
+<entry key="2" type="xdouble" value="37.1"/>
+<entry key="3" type="xdouble" value="39.8"/>
+<entry key="4" type="xdouble" value="42.0"/>
+<entry key="5" type="xdouble" value="48.8"/>
+<entry key="6" type="xdouble" value="53.9"/>
+</config>
+<config key="mildrowAVERAGE_FREE_FLOW_SPEED">
+<config key="mildrowAVERAGE_FREE_FLOW_SPEED0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row3253"/>
+</config>
+<config key="mildrowAVERAGE_FREE_FLOW_SPEED1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row5385"/>
+</config>
+<config key="mildrowAVERAGE_FREE_FLOW_SPEED2">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4586"/>
+</config>
+<config key="mildrowAVERAGE_FREE_FLOW_SPEED3">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row118"/>
+</config>
+<config key="mildrowAVERAGE_FREE_FLOW_SPEED4">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row3224"/>
+<entry key="1" type="xstring" value="Row5263"/>
+</config>
+<config key="mildrowAVERAGE_FREE_FLOW_SPEED5">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row2855"/>
+</config>
+<config key="mildrowAVERAGE_FREE_FLOW_SPEED6">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4297"/>
+</config>
+</config>
+<config key="mildAVERAGE_FREE_FLOW_SPEED">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="49.5"/>
+<entry key="1" type="xdouble" value="49.8"/>
+<entry key="2" type="xdouble" value="50.7"/>
+<entry key="3" type="xdouble" value="51.1"/>
+<entry key="4" type="xdouble" value="52.2"/>
+<entry key="5" type="xdouble" value="53.3"/>
+<entry key="6" type="xdouble" value="53.9"/>
+</config>
+<config key="extremerowAVERAGE_FREE_FLOW_SPEED"/>
+<config key="extremeAVERAGE_FREE_FLOW_SPEED">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsAVERAGE_TIME_DIFF">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="5.9"/>
+<entry key="1" type="xdouble" value="5.9"/>
+<entry key="2" type="xdouble" value="40.8"/>
+<entry key="3" type="xdouble" value="55.2"/>
+<entry key="4" type="xdouble" value="76.8"/>
+<entry key="5" type="xdouble" value="130.7"/>
+<entry key="6" type="xdouble" value="256.9"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF">
+<config key="mildrowAVERAGE_TIME_DIFF0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row5162"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row5446"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF2">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4183"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF3">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row1127"/>
+<entry key="1" type="xstring" value="Row3317"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF4">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4793"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF5">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row5687"/>
+<entry key="1" type="xstring" value="Row3070"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF6">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row27"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF7">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4661"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF8">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4512"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF9">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row3237"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF10">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4857"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF11">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row2239"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF12">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row2567"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF13">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row5673"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF14">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row2275"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF15">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row1369"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF16">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row1675"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF17">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row3271"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF18">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row922"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF19">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row3578"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF20">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row3778"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF21">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row3653"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF22">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row5194"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF23">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row3479"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF24">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row5967"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF25">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row2450"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF26">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row5744"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF27">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row2996"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF28">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row228"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF29">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row5279"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF30">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row1754"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF31">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row6066"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF32">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row1448"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF33">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row6737"/>
+</config>
+<config key="mildrowAVERAGE_TIME_DIFF34">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row1552"/>
+<entry key="1" type="xstring" value="Row2570"/>
+</config>
+</config>
+<config key="mildAVERAGE_TIME_DIFF">
+<entry key="array-size" type="xint" value="35"/>
+<entry key="0" type="xdouble" value="131.9"/>
+<entry key="1" type="xdouble" value="132.6"/>
+<entry key="2" type="xdouble" value="133.1"/>
+<entry key="3" type="xdouble" value="134.1"/>
+<entry key="4" type="xdouble" value="134.4"/>
+<entry key="5" type="xdouble" value="136.5"/>
+<entry key="6" type="xdouble" value="136.9"/>
+<entry key="7" type="xdouble" value="138.9"/>
+<entry key="8" type="xdouble" value="139.1"/>
+<entry key="9" type="xdouble" value="140.6"/>
+<entry key="10" type="xdouble" value="142.1"/>
+<entry key="11" type="xdouble" value="142.4"/>
+<entry key="12" type="xdouble" value="142.7"/>
+<entry key="13" type="xdouble" value="143.3"/>
+<entry key="14" type="xdouble" value="143.9"/>
+<entry key="15" type="xdouble" value="144.3"/>
+<entry key="16" type="xdouble" value="145.9"/>
+<entry key="17" type="xdouble" value="147.8"/>
+<entry key="18" type="xdouble" value="148.9"/>
+<entry key="19" type="xdouble" value="150.4"/>
+<entry key="20" type="xdouble" value="151.9"/>
+<entry key="21" type="xdouble" value="152.3"/>
+<entry key="22" type="xdouble" value="160.7"/>
+<entry key="23" type="xdouble" value="161.9"/>
+<entry key="24" type="xdouble" value="162.1"/>
+<entry key="25" type="xdouble" value="162.2"/>
+<entry key="26" type="xdouble" value="162.3"/>
+<entry key="27" type="xdouble" value="164.6"/>
+<entry key="28" type="xdouble" value="165.0"/>
+<entry key="29" type="xdouble" value="166.3"/>
+<entry key="30" type="xdouble" value="167.5"/>
+<entry key="31" type="xdouble" value="168.4"/>
+<entry key="32" type="xdouble" value="171.2"/>
+<entry key="33" type="xdouble" value="175.4"/>
+<entry key="34" type="xdouble" value="179.9"/>
+</config>
+<config key="extremerowAVERAGE_TIME_DIFF">
+<config key="extremerowAVERAGE_TIME_DIFF0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4929"/>
+</config>
+<config key="extremerowAVERAGE_TIME_DIFF1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row2872"/>
+</config>
+<config key="extremerowAVERAGE_TIME_DIFF2">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row1560"/>
+</config>
+<config key="extremerowAVERAGE_TIME_DIFF3">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row2671"/>
+</config>
+<config key="extremerowAVERAGE_TIME_DIFF4">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row3946"/>
+</config>
+<config key="extremerowAVERAGE_TIME_DIFF5">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row6452"/>
+</config>
+<config key="extremerowAVERAGE_TIME_DIFF6">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row6145"/>
+</config>
+<config key="extremerowAVERAGE_TIME_DIFF7">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4954"/>
+</config>
+<config key="extremerowAVERAGE_TIME_DIFF8">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row292"/>
+</config>
+</config>
+<config key="extremeAVERAGE_TIME_DIFF">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xdouble" value="184.8"/>
+<entry key="1" type="xdouble" value="191.1"/>
+<entry key="2" type="xdouble" value="195.3"/>
+<entry key="3" type="xdouble" value="202.4"/>
+<entry key="4" type="xdouble" value="216.9"/>
+<entry key="5" type="xdouble" value="219.6"/>
+<entry key="6" type="xdouble" value="240.3"/>
+<entry key="7" type="xdouble" value="240.7"/>
+<entry key="8" type="xdouble" value="256.9"/>
+</config>
+<config key="statsAVERAGE_FREE_FLOW_TIME">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="60.8"/>
+<entry key="1" type="xdouble" value="60.8"/>
+<entry key="2" type="xdouble" value="76.9"/>
+<entry key="3" type="xdouble" value="82.8"/>
+<entry key="4" type="xdouble" value="87.8"/>
+<entry key="5" type="xdouble" value="101.2"/>
+<entry key="6" type="xdouble" value="101.2"/>
+</config>
+<config key="mildrowAVERAGE_FREE_FLOW_TIME"/>
+<config key="mildAVERAGE_FREE_FLOW_TIME">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="extremerowAVERAGE_FREE_FLOW_TIME"/>
+<config key="extremeAVERAGE_FREE_FLOW_TIME">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsAVERAGE_TEMPERATURE">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="3.0"/>
+<entry key="1" type="xdouble" value="5.0"/>
+<entry key="2" type="xdouble" value="15.0"/>
+<entry key="3" type="xdouble" value="19.0"/>
+<entry key="4" type="xdouble" value="22.0"/>
+<entry key="5" type="xdouble" value="32.0"/>
+<entry key="6" type="xdouble" value="32.0"/>
+</config>
+<config key="mildrowAVERAGE_TEMPERATURE">
+<config key="mildrowAVERAGE_TEMPERATURE0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row3035"/>
+</config>
+<config key="mildrowAVERAGE_TEMPERATURE1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row5150"/>
+</config>
+</config>
+<config key="mildAVERAGE_TEMPERATURE">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="3.0"/>
+<entry key="1" type="xdouble" value="4.0"/>
+</config>
+<config key="extremerowAVERAGE_TEMPERATURE"/>
+<config key="extremeAVERAGE_TEMPERATURE">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsAVERAGE_ATMOSP_PRESSURE">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="985.0"/>
+<entry key="1" type="xdouble" value="1006.0"/>
+<entry key="2" type="xdouble" value="1015.0"/>
+<entry key="3" type="xdouble" value="1017.0"/>
+<entry key="4" type="xdouble" value="1021.0"/>
+<entry key="5" type="xdouble" value="1030.0"/>
+<entry key="6" type="xdouble" value="1032.0"/>
+</config>
+<config key="mildrowAVERAGE_ATMOSP_PRESSURE">
+<config key="mildrowAVERAGE_ATMOSP_PRESSURE0">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Row5417"/>
+<entry key="1" type="xstring" value="Row2819"/>
+<entry key="2" type="xstring" value="Row4214"/>
+<entry key="3" type="xstring" value="Row5809"/>
+<entry key="4" type="xstring" value="Row521"/>
+<entry key="5" type="xstring" value="Row2091"/>
+</config>
+<config key="mildrowAVERAGE_ATMOSP_PRESSURE1">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row1841"/>
+<entry key="1" type="xstring" value="Row5519"/>
+</config>
+<config key="mildrowAVERAGE_ATMOSP_PRESSURE2">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Row3995"/>
+<entry key="1" type="xstring" value="Row4586"/>
+<entry key="2" type="xstring" value="Row1924"/>
+<entry key="3" type="xstring" value="Row1757"/>
+<entry key="4" type="xstring" value="Row4956"/>
+</config>
+<config key="mildrowAVERAGE_ATMOSP_PRESSURE3">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Row6050"/>
+<entry key="1" type="xstring" value="Row3315"/>
+<entry key="2" type="xstring" value="Row5404"/>
+<entry key="3" type="xstring" value="Row1150"/>
+</config>
+<config key="mildrowAVERAGE_ATMOSP_PRESSURE4">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row2520"/>
+<entry key="1" type="xstring" value="Row4197"/>
+</config>
+<config key="mildrowAVERAGE_ATMOSP_PRESSURE5">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xstring" value="Row3721"/>
+<entry key="1" type="xstring" value="Row4547"/>
+<entry key="2" type="xstring" value="Row5865"/>
+<entry key="3" type="xstring" value="Row1451"/>
+<entry key="4" type="xstring" value="Row5344"/>
+<entry key="5" type="xstring" value="Row5916"/>
+<entry key="6" type="xstring" value="Row646"/>
+<entry key="7" type="xstring" value="Row4390"/>
+<entry key="8" type="xstring" value="Row4528"/>
+</config>
+<config key="mildrowAVERAGE_ATMOSP_PRESSURE6">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xstring" value="Row1542"/>
+<entry key="1" type="xstring" value="Row5724"/>
+<entry key="2" type="xstring" value="Row2918"/>
+<entry key="3" type="xstring" value="Row1271"/>
+<entry key="4" type="xstring" value="Row1184"/>
+<entry key="5" type="xstring" value="Row5829"/>
+</config>
+<config key="mildrowAVERAGE_ATMOSP_PRESSURE7">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Row4864"/>
+<entry key="1" type="xstring" value="Row2256"/>
+<entry key="2" type="xstring" value="Row552"/>
+</config>
+<config key="mildrowAVERAGE_ATMOSP_PRESSURE8">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Row2367"/>
+<entry key="1" type="xstring" value="Row5906"/>
+<entry key="2" type="xstring" value="Row3150"/>
+</config>
+<config key="mildrowAVERAGE_ATMOSP_PRESSURE9">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xstring" value="Row5967"/>
+<entry key="1" type="xstring" value="Row5613"/>
+<entry key="2" type="xstring" value="Row5279"/>
+<entry key="3" type="xstring" value="Row5012"/>
+<entry key="4" type="xstring" value="Row6074"/>
+<entry key="5" type="xstring" value="Row922"/>
+<entry key="6" type="xstring" value="Row2945"/>
+<entry key="7" type="xstring" value="Row5628"/>
+</config>
+</config>
+<config key="mildAVERAGE_ATMOSP_PRESSURE">
+<entry key="array-size" type="xint" value="10"/>
+<entry key="0" type="xdouble" value="998.0"/>
+<entry key="1" type="xdouble" value="999.0"/>
+<entry key="2" type="xdouble" value="1000.0"/>
+<entry key="3" type="xdouble" value="1001.0"/>
+<entry key="4" type="xdouble" value="1002.0"/>
+<entry key="5" type="xdouble" value="1003.0"/>
+<entry key="6" type="xdouble" value="1004.0"/>
+<entry key="7" type="xdouble" value="1005.0"/>
+<entry key="8" type="xdouble" value="1031.0"/>
+<entry key="9" type="xdouble" value="1032.0"/>
+</config>
+<config key="extremerowAVERAGE_ATMOSP_PRESSURE">
+<config key="extremerowAVERAGE_ATMOSP_PRESSURE0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row2542"/>
+</config>
+<config key="extremerowAVERAGE_ATMOSP_PRESSURE1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row1124"/>
+</config>
+<config key="extremerowAVERAGE_ATMOSP_PRESSURE2">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row3173"/>
+</config>
+<config key="extremerowAVERAGE_ATMOSP_PRESSURE3">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row6344"/>
+</config>
+</config>
+<config key="extremeAVERAGE_ATMOSP_PRESSURE">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xdouble" value="985.0"/>
+<entry key="1" type="xdouble" value="986.0"/>
+<entry key="2" type="xdouble" value="996.0"/>
+<entry key="3" type="xdouble" value="997.0"/>
+</config>
+<config key="statsAVERAGE_HUMIDITY">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="19.0"/>
+<entry key="1" type="xdouble" value="30.0"/>
+<entry key="2" type="xdouble" value="64.0"/>
+<entry key="3" type="xdouble" value="77.0"/>
+<entry key="4" type="xdouble" value="87.0"/>
+<entry key="5" type="xdouble" value="100.0"/>
+<entry key="6" type="xdouble" value="100.0"/>
+</config>
+<config key="mildrowAVERAGE_HUMIDITY">
+<config key="mildrowAVERAGE_HUMIDITY0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row5000"/>
+</config>
+<config key="mildrowAVERAGE_HUMIDITY1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row2990"/>
+</config>
+<config key="mildrowAVERAGE_HUMIDITY2">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row5552"/>
+<entry key="1" type="xstring" value="Row6781"/>
+</config>
+<config key="mildrowAVERAGE_HUMIDITY3">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Row3784"/>
+<entry key="1" type="xstring" value="Row5297"/>
+</config>
+<config key="mildrowAVERAGE_HUMIDITY4">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row5288"/>
+</config>
+<config key="mildrowAVERAGE_HUMIDITY5">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Row1039"/>
+<entry key="1" type="xstring" value="Row1614"/>
+<entry key="2" type="xstring" value="Row290"/>
+</config>
+<config key="mildrowAVERAGE_HUMIDITY6">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row734"/>
+</config>
+<config key="mildrowAVERAGE_HUMIDITY7">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4263"/>
+</config>
+<config key="mildrowAVERAGE_HUMIDITY8">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4341"/>
+</config>
+</config>
+<config key="mildAVERAGE_HUMIDITY">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xdouble" value="19.0"/>
+<entry key="1" type="xdouble" value="20.0"/>
+<entry key="2" type="xdouble" value="23.0"/>
+<entry key="3" type="xdouble" value="24.0"/>
+<entry key="4" type="xdouble" value="25.0"/>
+<entry key="5" type="xdouble" value="26.0"/>
+<entry key="6" type="xdouble" value="27.0"/>
+<entry key="7" type="xdouble" value="28.0"/>
+<entry key="8" type="xdouble" value="29.0"/>
+</config>
+<config key="extremerowAVERAGE_HUMIDITY"/>
+<config key="extremeAVERAGE_HUMIDITY">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsAVERAGE_WIND_SPEED">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="2.0"/>
+<entry key="3" type="xdouble" value="4.0"/>
+<entry key="4" type="xdouble" value="5.0"/>
+<entry key="5" type="xdouble" value="9.0"/>
+<entry key="6" type="xdouble" value="12.0"/>
+</config>
+<config key="mildrowAVERAGE_WIND_SPEED">
+<config key="mildrowAVERAGE_WIND_SPEED0">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="Row1446"/>
+<entry key="1" type="xstring" value="Row3315"/>
+<entry key="2" type="xstring" value="Row3079"/>
+<entry key="3" type="xstring" value="Row2275"/>
+<entry key="4" type="xstring" value="Row4288"/>
+<entry key="5" type="xstring" value="Row4297"/>
+<entry key="6" type="xstring" value="Row3173"/>
+<entry key="7" type="xstring" value="Row2450"/>
+<entry key="8" type="xstring" value="Row4175"/>
+<entry key="9" type="xstring" value="Row2944"/>
+<entry key="10" type="xstring" value="Row5482"/>
+</config>
+<config key="mildrowAVERAGE_WIND_SPEED1">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="Row6677"/>
+<entry key="1" type="xstring" value="Row6575"/>
+<entry key="2" type="xstring" value="Row4989"/>
+<entry key="3" type="xstring" value="Row1615"/>
+</config>
+<config key="mildrowAVERAGE_WIND_SPEED2">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4446"/>
+</config>
+</config>
+<config key="mildAVERAGE_WIND_SPEED">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xdouble" value="10.0"/>
+<entry key="1" type="xdouble" value="11.0"/>
+<entry key="2" type="xdouble" value="12.0"/>
+</config>
+<config key="extremerowAVERAGE_WIND_SPEED"/>
+<config key="extremeAVERAGE_WIND_SPEED">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsAVERAGE_PRECIPITATION">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="0.0"/>
+<entry key="2" type="xdouble" value="0.0"/>
+<entry key="3" type="xdouble" value="0.0"/>
+<entry key="4" type="xdouble" value="0.0"/>
+<entry key="5" type="xdouble" value="0.0"/>
+<entry key="6" type="xdouble" value="0.0"/>
+</config>
+<config key="mildrowAVERAGE_PRECIPITATION"/>
+<config key="mildAVERAGE_PRECIPITATION">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="extremerowAVERAGE_PRECIPITATION"/>
+<config key="extremeAVERAGE_PRECIPITATION">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="statsMax-real(previsao)">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xdouble" value="3.8687347931873504"/>
+<entry key="1" type="xdouble" value="5.528457446808517"/>
+<entry key="2" type="xdouble" value="13.22635135135135"/>
+<entry key="3" type="xdouble" value="15.708739255014326"/>
+<entry key="4" type="xdouble" value="18.899612736660927"/>
+<entry key="5" type="xdouble" value="27.13764471057884"/>
+<entry key="6" type="xdouble" value="28.723762376237623"/>
+</config>
+<config key="mildrowMax-real(previsao)">
+<config key="mildrowMax-real(previsao)0">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4297"/>
+</config>
+<config key="mildrowMax-real(previsao)1">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4257"/>
+</config>
+<config key="mildrowMax-real(previsao)2">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row3224"/>
+</config>
+<config key="mildrowMax-real(previsao)3">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row3946"/>
+</config>
+<config key="mildrowMax-real(previsao)4">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row4954"/>
+</config>
+<config key="mildrowMax-real(previsao)5">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row292"/>
+</config>
+<config key="mildrowMax-real(previsao)6">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row2671"/>
+</config>
+<config key="mildrowMax-real(previsao)7">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Row1754"/>
+</config>
+</config>
+<config key="mildMax-real(previsao)">
+<entry key="array-size" type="xint" value="8"/>
+<entry key="0" type="xdouble" value="3.8687347931873504"/>
+<entry key="1" type="xdouble" value="4.247096774193551"/>
+<entry key="2" type="xdouble" value="4.3727748691099535"/>
+<entry key="3" type="xdouble" value="27.92764705882353"/>
+<entry key="4" type="xdouble" value="28.227892234548335"/>
+<entry key="5" type="xdouble" value="28.362947976878615"/>
+<entry key="6" type="xdouble" value="28.601535240753662"/>
+<entry key="7" type="xdouble" value="28.723762376237623"/>
+</config>
+<config key="extremerowMax-real(previsao)"/>
+<config key="extremeMax-real(previsao)">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+</config>

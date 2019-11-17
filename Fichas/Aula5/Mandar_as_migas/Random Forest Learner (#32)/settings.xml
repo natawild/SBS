@@ -19,7 +19,7 @@
 <entry key="columnAbsolutePerTree" type="xint" value="10"/>
 <entry key="isUseDifferentAttributesAtEachNode" type="xboolean" value="true"/>
 <entry key="nrModels" type="xint" value="100"/>
-<entry key="splitCriterion" type="xstring" value="InformationGain"/>
+<entry key="splitCriterion" type="xstring" value="Gini"/>
 <entry key="missingValueHandling" type="xstring" value="XGBoost"/>
 <entry key="useAverageSplitPoints" type="xboolean" value="true"/>
 <entry key="useBinaryNominalSplits" type="xboolean" value="true"/>
@@ -29,16 +29,16 @@
 <config key="included_names">
 <entry key="array-size" type="xint" value="11"/>
 <entry key="0" type="xstring" value="AVERAGE_FREE_FLOW_SPEED"/>
-<entry key="1" type="xstring" value="AVERAGE_TIME_DIFF"/>
-<entry key="2" type="xstring" value="AVERAGE_FREE_FLOW_TIME"/>
-<entry key="3" type="xstring" value="AVERAGE_TEMPERATURE"/>
-<entry key="4" type="xstring" value="AVERAGE_RAIN"/>
+<entry key="1" type="xstring" value="AVERAGE_FREE_FLOW_TIME"/>
+<entry key="2" type="xstring" value="AVERAGE_TEMPERATURE"/>
+<entry key="3" type="xstring" value="AVERAGE_RAIN"/>
+<entry key="4" type="xstring" value="Max-real(previsao)"/>
 <entry key="5" type="xstring" value="Month (number)"/>
 <entry key="6" type="xstring" value="Day of week (name)"/>
 <entry key="7" type="xstring" value="Hour"/>
-<entry key="8" type="xstring" value="Periodos de transito"/>
-<entry key="9" type="xstring" value="AVERAGE_TIME_DIFF_binned"/>
-<entry key="10" type="xstring" value="Designaçao"/>
+<entry key="8" type="xstring" value="Designaçao"/>
+<entry key="9" type="xstring" value="Hour_binned"/>
+<entry key="10" type="xstring" value="AVERAGE_TIME_DIFF_binned"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="0"/>

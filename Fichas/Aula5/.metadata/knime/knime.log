@@ -25443,3 +25443,330 @@ Caused by: java.text.ParseException: line 5, col 38: Expected TRUE or FALSE.
 	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:565)
 	... 19 more
 2019-11-17 00:50:03,416 : WARN  : KNIME-Worker-442 :  : Node : Rule-based Row Filter : 8:48:0:109:0:94 : Node created an empty data table.
+2019-11-17 01:01:21,695 : WARN  : main :  : WrappedNodeDialog : Rule-based Row Filter : 8:48:0:109:0:94 : failed to apply settings: line 5, col 30: Expected: ) got: =
+org.knime.core.node.InvalidSettingsException: line 5, col 30: Expected: ) got: =
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:567)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:485)
+	at org.knime.core.node.NodeDialogPane$5.run(NodeDialogPane.java:722)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.text.ParseException: line 5, col 30: Expected: ) got: =
+	at org.knime.base.node.rules.engine.BaseRuleParser$ParseState.expect(BaseRuleParser.java:220)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRootBooleanExpression(BaseRuleParser.java:741)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseAndExpression(BaseRuleParser.java:712)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseXorExpression(BaseRuleParser.java:689)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOrExpression(BaseRuleParser.java:666)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseBooleanExpression(BaseRuleParser.java:654)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parseCondition(SimpleRuleParser.java:278)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parse(SimpleRuleParser.java:230)
+	at org.knime.base.node.rules.engine.RuleFactory.parse(RuleFactory.java:191)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:468)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:496)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:507)
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:565)
+	... 19 more
+2019-11-17 01:28:56,634 : WARN  : main :  : Node : Column Combiner : 8:48:0:109:0:114 : No settings available.
+2019-11-17 01:29:58,784 : WARN  : main :  : Node : Column Merger : 8:48:0:109:0:114 : No settings available
+2019-11-17 01:51:34,905 : WARN  : KNIME-Worker-463 :  : Node : Missing Value : 8:48:0:109:0:113 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2019-11-17 01:52:32,150 : WARN  : KNIME-Worker-464 :  : Node : Missing Value : 8:48:0:109:0:113 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2019-11-17 01:57:42,616 : WARN  : KNIME-Worker-470 :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Elevado" is used for different intervals.
+2019-11-17 01:57:42,617 : WARN  : KNIME-Worker-470 :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Medio" is used for different intervals.
+2019-11-17 01:57:42,617 : WARN  : KNIME-Worker-470 :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Quase nulo" is used for different intervals.
+2019-11-17 01:57:42,618 : WARN  : KNIME-Worker-470 :  : Node : Numeric Binner : 8:48:0:151:0:143 : Bin name "Medio" is used for different intervals.
+2019-11-17 01:57:42,618 : WARN  : KNIME-Worker-470 :  : Node : Numeric Binner : 8:48:0:151:0:143 : Bin name "Muito elevado" is used for different intervals.
+2019-11-17 01:57:42,618 : WARN  : KNIME-Worker-470 :  : Node : Numeric Binner : 8:48:0:151:0:143 : Bin name "Elevado" is used for different intervals.
+2019-11-17 01:57:42,618 : WARN  : KNIME-Worker-470 :  : Node : Numeric Binner : 8:48:0:151:0:143 : Bin name "Baixo" is used for different intervals.
+2019-11-17 01:57:42,619 : WARN  : KNIME-Worker-470 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Medio" is used for different intervals.
+2019-11-17 01:57:42,619 : WARN  : KNIME-Worker-470 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Baixo" is used for different intervals.
+2019-11-17 01:57:42,619 : WARN  : KNIME-Worker-470 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Quase nulo" is used for different intervals.
+2019-11-17 01:57:42,631 : WARN  : KNIME-Worker-470 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 01:58:06,902 : WARN  : KNIME-Worker-471 :  : Node : Numeric Binner : 8:48:0:151:0:143 : Bin name "Medio" is used for different intervals.
+2019-11-17 01:58:06,903 : WARN  : KNIME-Worker-471 :  : Node : Numeric Binner : 8:48:0:151:0:143 : Bin name "Muito elevado" is used for different intervals.
+2019-11-17 01:58:06,904 : WARN  : KNIME-Worker-471 :  : Node : Numeric Binner : 8:48:0:151:0:143 : Bin name "Elevado" is used for different intervals.
+2019-11-17 01:58:06,917 : WARN  : KNIME-Worker-471 :  : Node : Numeric Binner : 8:48:0:151:0:143 : Bin name "Baixo" is used for different intervals.
+2019-11-17 01:58:06,934 : WARN  : KNIME-Worker-475 :  : Node : Numeric Binner : 8:48:0:151:0:143 : Bin name "Medio" is used for different intervals.
+2019-11-17 01:58:06,934 : WARN  : KNIME-Worker-475 :  : Node : Numeric Binner : 8:48:0:151:0:143 : Bin name "Muito elevado" is used for different intervals.
+2019-11-17 01:58:06,934 : WARN  : KNIME-Worker-475 :  : Node : Numeric Binner : 8:48:0:151:0:143 : Bin name "Elevado" is used for different intervals.
+2019-11-17 01:58:06,934 : WARN  : KNIME-Worker-475 :  : Node : Numeric Binner : 8:48:0:151:0:143 : Bin name "Baixo" is used for different intervals.
+2019-11-17 01:58:06,937 : WARN  : KNIME-Worker-477 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Medio" is used for different intervals.
+2019-11-17 01:58:06,937 : WARN  : KNIME-Worker-477 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Baixo" is used for different intervals.
+2019-11-17 01:58:06,937 : WARN  : KNIME-Worker-477 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Quase nulo" is used for different intervals.
+2019-11-17 01:58:06,941 : WARN  : KNIME-Worker-468 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Medio" is used for different intervals.
+2019-11-17 01:58:06,941 : WARN  : KNIME-Worker-468 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Baixo" is used for different intervals.
+2019-11-17 01:58:06,941 : WARN  : KNIME-Worker-468 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Quase nulo" is used for different intervals.
+2019-11-17 01:58:06,943 : WARN  : KNIME-Worker-474 :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Elevado" is used for different intervals.
+2019-11-17 01:58:06,943 : WARN  : KNIME-Worker-474 :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Medio" is used for different intervals.
+2019-11-17 01:58:06,943 : WARN  : KNIME-Worker-474 :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Quase nulo" is used for different intervals.
+2019-11-17 01:58:06,945 : WARN  : KNIME-Worker-476 :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Elevado" is used for different intervals.
+2019-11-17 01:58:06,945 : WARN  : KNIME-Worker-476 :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Medio" is used for different intervals.
+2019-11-17 01:58:06,945 : WARN  : KNIME-Worker-476 :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Quase nulo" is used for different intervals.
+2019-11-17 01:58:41,521 : WARN  : main :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Medio" is used for different intervals.
+2019-11-17 01:58:41,523 : WARN  : main :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Baixo" is used for different intervals.
+2019-11-17 01:58:41,523 : WARN  : main :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Quase nulo" is used for different intervals.
+2019-11-17 01:58:51,767 : WARN  : main :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Medio" is used for different intervals.
+2019-11-17 01:58:51,769 : WARN  : main :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Baixo" is used for different intervals.
+2019-11-17 01:58:51,770 : WARN  : main :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Quase nulo" is used for different intervals.
+2019-11-17 02:01:41,910 : WARN  : main :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Elevado" is used for different intervals.
+2019-11-17 02:01:41,911 : WARN  : main :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Elevado" is used for different intervals.
+2019-11-17 02:01:41,911 : WARN  : main :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Quase nulo" is used for different intervals.
+2019-11-17 02:01:42,775 : WARN  : main :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Elevado" is used for different intervals.
+2019-11-17 02:01:42,775 : WARN  : main :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Elevado" is used for different intervals.
+2019-11-17 02:01:42,775 : WARN  : main :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Quase nulo" is used for different intervals.
+2019-11-17 02:01:59,620 : WARN  : KNIME-Worker-478 :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Elevado" is used for different intervals.
+2019-11-17 02:01:59,620 : WARN  : KNIME-Worker-478 :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Elevado" is used for different intervals.
+2019-11-17 02:01:59,620 : WARN  : KNIME-Worker-478 :  : Node : Numeric Binner : 8:48:0:151:0:146 : Bin name "Quase nulo" is used for different intervals.
+2019-11-17 02:01:59,635 : WARN  : KNIME-Worker-479 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Medio" is used for different intervals.
+2019-11-17 02:01:59,635 : WARN  : KNIME-Worker-479 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Baixo" is used for different intervals.
+2019-11-17 02:01:59,636 : WARN  : KNIME-Worker-479 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Quase nulo" is used for different intervals.
+2019-11-17 02:01:59,637 : WARN  : KNIME-Worker-480 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Medio" is used for different intervals.
+2019-11-17 02:01:59,637 : WARN  : KNIME-Worker-480 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Baixo" is used for different intervals.
+2019-11-17 02:01:59,637 : WARN  : KNIME-Worker-480 :  : Node : Numeric Binner : 8:48:0:151:0:142 : Bin name "Quase nulo" is used for different intervals.
+2019-11-17 02:04:35,661 : WARN  : main :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:04:36,428 : WARN  : main :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:04:38,096 : WARN  : KNIME-Worker-484 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:04:44,937 : WARN  : KNIME-Worker-488 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:04:44,994 : WARN  : KNIME-Worker-489 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:05:01,952 : WARN  : KNIME-Worker-491 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:05:01,960 : WARN  : KNIME-Worker-493 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:05:06,449 : WARN  : KNIME-Worker-491 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:05:06,478 : WARN  : KNIME-Worker-489 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:05:27,031 : WARN  : KNIME-Worker-483 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:05:27,061 : WARN  : KNIME-Worker-484 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:05:31,942 : WARN  : KNIME-Worker-483 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:05:31,965 : WARN  : KNIME-Worker-491 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:05:51,698 : WARN  : KNIME-Worker-484 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:05:51,712 : WARN  : KNIME-Worker-492 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:05:56,459 : WARN  : KNIME-Worker-493 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:05:56,500 : WARN  : KNIME-Worker-490 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:06:14,314 : WARN  : KNIME-Worker-489 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:06:14,321 : WARN  : KNIME-Worker-485 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:06:18,707 : WARN  : KNIME-Worker-484 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:06:18,741 : WARN  : KNIME-Worker-485 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:06:36,170 : WARN  : KNIME-Worker-487 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:06:36,176 : WARN  : KNIME-Worker-485 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:06:40,636 : WARN  : KNIME-Worker-483 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:06:40,660 : WARN  : KNIME-Worker-493 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:06:58,363 : WARN  : KNIME-Worker-492 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:06:58,369 : WARN  : KNIME-Worker-488 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:07:04,605 : WARN  : KNIME-Worker-492 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:07:04,647 : WARN  : KNIME-Worker-485 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:07:31,067 : WARN  : KNIME-Worker-484 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:07:31,074 : WARN  : KNIME-Worker-492 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:07:38,018 : WARN  : KNIME-Worker-488 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:07:38,045 : WARN  : KNIME-Worker-483 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:08:05,560 : WARN  : KNIME-Worker-484 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:08:05,570 : WARN  : KNIME-Worker-485 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:08:12,872 : WARN  : KNIME-Worker-489 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:08:12,919 : WARN  : KNIME-Worker-484 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:08:38,761 : WARN  : KNIME-Worker-485 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:08:38,779 : WARN  : KNIME-Worker-489 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:08:45,297 : WARN  : KNIME-Worker-491 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:08:45,324 : WARN  : KNIME-Worker-489 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:09:11,205 : WARN  : KNIME-Worker-493 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:09:11,220 : WARN  : KNIME-Worker-483 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:09:17,283 : WARN  : KNIME-Worker-489 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:09:17,307 : WARN  : KNIME-Worker-490 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:09:43,067 : WARN  : KNIME-Worker-487 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:09:43,086 : WARN  : KNIME-Worker-490 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:09:49,899 : WARN  : KNIME-Worker-490 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:09:49,965 : WARN  : KNIME-Worker-483 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:10:19,261 : WARN  : KNIME-Worker-483 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:10:19,267 : WARN  : KNIME-Worker-492 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:10:26,771 : WARN  : KNIME-Worker-491 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:10:26,802 : WARN  : KNIME-Worker-485 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:10:58,821 : WARN  : KNIME-Worker-488 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:10:58,827 : WARN  : KNIME-Worker-487 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:11:07,346 : WARN  : KNIME-Worker-488 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:11:07,370 : WARN  : KNIME-Worker-491 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:11:40,713 : WARN  : KNIME-Worker-485 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:11:40,721 : WARN  : KNIME-Worker-490 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:11:48,961 : WARN  : KNIME-Worker-492 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:11:48,987 : WARN  : KNIME-Worker-487 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:12:22,884 : WARN  : KNIME-Worker-490 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:12:22,891 : WARN  : KNIME-Worker-492 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:12:30,994 : WARN  : KNIME-Worker-492 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:12:31,024 : WARN  : KNIME-Worker-491 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:13:01,975 : WARN  : KNIME-Worker-483 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:13:01,984 : WARN  : KNIME-Worker-490 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:13:10,283 : WARN  : KNIME-Worker-487 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:13:10,307 : WARN  : KNIME-Worker-488 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:13:41,178 : WARN  : KNIME-Worker-493 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:13:41,187 : WARN  : KNIME-Worker-488 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:13:49,184 : WARN  : KNIME-Worker-491 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:13:49,222 : WARN  : KNIME-Worker-483 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:14:20,430 : WARN  : KNIME-Worker-487 :  : Node : GroupBy : 8:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:19:36,287 : WARN  : main :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:19:36,288 : WARN  : main :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:19:36,288 : WARN  : main :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:19:36,289 : WARN  : main :  : Node : Random Forest Learner : 3:34 : 2 column(s) were ignored due to missing domain information: ["AVERAGE_RAIN", "Day of week (name)"] -- change the node configuration or use a Domain Calculator node to fix it
+2019-11-17 02:19:36,290 : WARN  : main :  : Node : Random Forest Learner : 3:32 : 2 column(s) were ignored due to missing domain information: ["AVERAGE_RAIN", "Day of week (name)"] -- change the node configuration or use a Domain Calculator node to fix it
+2019-11-17 02:19:36,290 : WARN  : main :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:19:36,293 : WARN  : main :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/16Novv1.csv' exists and will be overwritten
+2019-11-17 02:20:21,281 : WARN  : main :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:20:21,281 : WARN  : main :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:20:21,281 : WARN  : main :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:20:21,282 : WARN  : main :  : Node : Random Forest Learner : 3:34 : 2 column(s) were ignored due to missing domain information: ["AVERAGE_RAIN", "Day of week (name)"] -- change the node configuration or use a Domain Calculator node to fix it
+2019-11-17 02:20:21,282 : WARN  : main :  : Node : Random Forest Learner : 3:32 : 2 column(s) were ignored due to missing domain information: ["AVERAGE_RAIN", "Day of week (name)"] -- change the node configuration or use a Domain Calculator node to fix it
+2019-11-17 02:20:21,283 : WARN  : main :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:20:21,283 : WARN  : main :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/16Novv1.csv' exists and will be overwritten
+2019-11-17 02:20:32,716 : WARN  : main :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:20:32,716 : WARN  : main :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:20:32,716 : WARN  : main :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:20:34,992 : WARN  : main :  : Node : Random Forest Learner : 3:34 : 2 column(s) were ignored due to missing domain information: ["AVERAGE_RAIN", "Day of week (name)"] -- change the node configuration or use a Domain Calculator node to fix it
+2019-11-17 02:20:34,992 : WARN  : main :  : Node : Random Forest Learner : 3:32 : 2 column(s) were ignored due to missing domain information: ["AVERAGE_RAIN", "Day of week (name)"] -- change the node configuration or use a Domain Calculator node to fix it
+2019-11-17 02:20:34,992 : WARN  : main :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:20:34,993 : WARN  : main :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/16Novv1.csv' exists and will be overwritten
+2019-11-17 02:21:02,130 : WARN  : KNIME-Worker-499 :  : Node : Missing Value : 3:48:0:109:0:113 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2019-11-17 02:21:02,324 : WARN  : KNIME-Worker-494 :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:21:02,324 : WARN  : KNIME-Worker-494 :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:21:02,324 : WARN  : KNIME-Worker-494 :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:21:02,369 : WARN  : KNIME-Worker-495 :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:21:02,369 : WARN  : KNIME-Worker-495 :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:21:02,369 : WARN  : KNIME-Worker-495 :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:21:02,470 : WARN  : KNIME-Worker-496 :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:21:02,470 : WARN  : KNIME-Worker-496 :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:21:02,470 : WARN  : KNIME-Worker-496 :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:21:02,471 : WARN  : KNIME-Worker-500 :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:21:02,471 : WARN  : KNIME-Worker-500 :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:21:02,471 : WARN  : KNIME-Worker-500 :  : Node : Numeric Binner : 3:48:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:21:02,619 : WARN  : KNIME-Worker-502 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:21:02,620 : WARN  : KNIME-Worker-502 :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/16Novv1.csv' exists and will be overwritten
+2019-11-17 02:21:19,324 : WARN  : main :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:21:19,325 : WARN  : main :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:21:39,848 : WARN  : main :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:21:41,752 : WARN  : main :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:21:50,652 : WARN  : main :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:21:51,224 : WARN  : main :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:21:53,123 : WARN  : KNIME-Worker-497 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:22:05,694 : WARN  : KNIME-Worker-495 :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/16Novv1.csv' exists and will be overwritten
+2019-11-17 02:22:05,696 : WARN  : KNIME-Worker-501 :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/16Novv1.csv' exists and will be overwritten
+2019-11-17 02:22:06,312 : WARN  : KNIME-Worker-504 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:22:06,329 : WARN  : KNIME-Worker-499 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:22:29,248 : WARN  : KNIME-Worker-503 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:22:29,260 : WARN  : KNIME-Worker-502 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:22:34,941 : WARN  : KNIME-Worker-499 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:22:34,967 : WARN  : KNIME-Worker-503 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:22:57,766 : WARN  : KNIME-Worker-501 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:22:57,776 : WARN  : KNIME-Worker-499 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:23:02,329 : WARN  : KNIME-Worker-496 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:23:02,344 : WARN  : KNIME-Worker-500 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:23:23,769 : WARN  : KNIME-Worker-500 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:23:23,775 : WARN  : KNIME-Worker-494 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:23:29,010 : WARN  : KNIME-Worker-503 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:23:29,028 : WARN  : KNIME-Worker-500 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:23:51,167 : WARN  : KNIME-Worker-494 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:23:51,172 : WARN  : KNIME-Worker-500 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:23:57,832 : WARN  : KNIME-Worker-504 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:23:57,850 : WARN  : KNIME-Worker-501 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:24:26,547 : WARN  : KNIME-Worker-498 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:24:26,556 : WARN  : KNIME-Worker-503 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:24:34,199 : WARN  : KNIME-Worker-499 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:24:34,227 : WARN  : KNIME-Worker-504 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:25:04,238 : WARN  : KNIME-Worker-499 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:25:04,246 : WARN  : KNIME-Worker-494 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:25:11,183 : WARN  : KNIME-Worker-504 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:25:11,202 : WARN  : KNIME-Worker-497 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:25:43,699 : WARN  : KNIME-Worker-499 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:25:43,711 : WARN  : KNIME-Worker-503 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:25:51,352 : WARN  : KNIME-Worker-496 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:25:51,381 : WARN  : KNIME-Worker-497 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:26:19,223 : WARN  : KNIME-Worker-496 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:26:19,235 : WARN  : KNIME-Worker-504 :  : NodeContainer : Variable Loop End : 3:12 : Encountered loop-end without corresponding head!
+org.knime.core.node.workflow.IllegalFlowObjectStackException: Encountered loop-end without corresponding head!
+	at org.knime.core.node.workflow.WorkflowManager.doBeforeExecution(WorkflowManager.java:2948)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteStart(NodeContainer.java:526)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:149)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:110)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:328)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:204)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2019-11-17 02:28:22,643 : WARN  : main :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/16Novv1.csv' exists and will be overwritten
+2019-11-17 02:28:23,728 : WARN  : main :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/16Novv1.csv' exists and will be overwritten
+2019-11-17 02:28:53,212 : WARN  : main :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/16Novv1.csv' exists and will be overwritten
+2019-11-17 02:28:54,535 : WARN  : main :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/16Novv1.csv' exists and will be overwritten
+2019-11-17 02:30:18,039 : WARN  : KNIME-Worker-505 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:30:18,040 : WARN  : KNIME-Worker-505 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:30:18,040 : WARN  : KNIME-Worker-505 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:30:18,128 : WARN  : KNIME-Worker-511 :  : Node : Missing Value : 3:57:0:109:0:113 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2019-11-17 02:30:18,372 : WARN  : KNIME-Worker-506 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:30:18,372 : WARN  : KNIME-Worker-506 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:30:18,372 : WARN  : KNIME-Worker-506 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:30:24,570 : WARN  : KNIME-Worker-510 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:30:24,570 : WARN  : KNIME-Worker-510 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:30:24,570 : WARN  : KNIME-Worker-510 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:30:24,591 : WARN  : KNIME-Worker-509 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:30:24,592 : WARN  : KNIME-Worker-509 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:30:24,592 : WARN  : KNIME-Worker-509 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:30:24,592 : WARN  : KNIME-Worker-506 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:30:24,593 : WARN  : KNIME-Worker-506 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:30:24,593 : WARN  : KNIME-Worker-506 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:30:41,603 : WARN  : KNIME-Worker-508 :  : NodeContainer : Variable Loop End : 3:12 : Encountered loop-end without corresponding head!
+org.knime.core.node.workflow.IllegalFlowObjectStackException: Encountered loop-end without corresponding head!
+	at org.knime.core.node.workflow.WorkflowManager.doBeforeExecution(WorkflowManager.java:2948)
+	at org.knime.core.node.workflow.NodeContainer.notifyParentExecuteStart(NodeContainer.java:526)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:149)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:110)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:328)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:204)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2019-11-17 02:37:46,169 : WARN  : main :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:37:46,171 : WARN  : main :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:37:46,172 : WARN  : main :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:37:46,176 : WARN  : main :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/17Nov1.csv' exists and will be overwritten
+2019-11-17 02:37:52,304 : WARN  : KNIME-Worker-517 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:37:52,304 : WARN  : KNIME-Worker-517 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:37:52,304 : WARN  : KNIME-Worker-517 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:38:09,069 : WARN  : KNIME-Worker-519 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:38:09,070 : WARN  : KNIME-Worker-519 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:38:09,070 : WARN  : KNIME-Worker-519 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:38:09,102 : WARN  : KNIME-Worker-520 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:38:09,102 : WARN  : KNIME-Worker-520 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:38:09,102 : WARN  : KNIME-Worker-520 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:38:09,103 : WARN  : KNIME-Worker-521 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:38:09,103 : WARN  : KNIME-Worker-521 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:38:09,103 : WARN  : KNIME-Worker-521 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:38:24,256 : WARN  : KNIME-Worker-523 :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/17Nov1.csv' exists and will be overwritten
+2019-11-17 02:38:24,268 : WARN  : KNIME-Worker-518 :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/17Nov1.csv' exists and will be overwritten
+2019-11-17 02:44:24,184 : WARN  : main :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:44:24,184 : WARN  : main :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:44:24,184 : WARN  : main :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:44:24,186 : WARN  : main :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/17Nov1.csv' exists and will be overwritten
+2019-11-17 02:44:58,634 : WARN  : KNIME-Worker-528 :  : Node : Missing Value : 3:57:0:109:0:111 : Column "AVERAGE_CLOUDINESS" still contains missing values.
+2019-11-17 02:46:27,936 : WARN  : main :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:47:04,236 : WARN  : main :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:47:05,955 : WARN  : main :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:47:12,128 : WARN  : KNIME-Worker-529 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:47:12,165 : WARN  : KNIME-Worker-534 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:47:12,165 : WARN  : KNIME-Worker-534 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:47:12,165 : WARN  : KNIME-Worker-534 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:47:12,356 : WARN  : KNIME-Worker-535 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:47:12,357 : WARN  : KNIME-Worker-535 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:47:12,357 : WARN  : KNIME-Worker-535 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:47:12,363 : WARN  : KNIME-Worker-537 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:47:12,363 : WARN  : KNIME-Worker-537 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito muito elevado" is used for different intervals.
+2019-11-17 02:47:12,363 : WARN  : KNIME-Worker-537 :  : Node : Numeric Binner : 3:57:0:43 : Bin name "Periodo de transito medio" is used for different intervals.
+2019-11-17 02:47:18,072 : WARN  : KNIME-Worker-532 :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/17Nov1.csv' exists and will be overwritten
+2019-11-17 02:47:18,079 : WARN  : KNIME-Worker-529 :  : Node : CSV Writer : 3:17 : Output file '/Users/user/Desktop/17Nov1.csv' exists and will be overwritten
+2019-11-17 02:47:30,519 : WARN  : KNIME-Worker-536 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.
+2019-11-17 02:47:30,594 : WARN  : KNIME-Worker-531 :  : Node : GroupBy : 3:26 : No grouping column included. Aggregate complete table.

@@ -8,9 +8,9 @@
 <config key="model">
 <entry key="targetColumn" type="xstring" value="AVERAGE_SPEED_DIFF"/>
 <entry key="seed" type="xstring" isnull="true" value=""/>
-<entry key="maxLevels" type="xint" value="20"/>
-<entry key="minNodeSize" type="xint" value="16"/>
-<entry key="minChildSize" type="xint" value="8"/>
+<entry key="maxLevels" type="xint" value="17"/>
+<entry key="minNodeSize" type="xint" value="22"/>
+<entry key="minChildSize" type="xint" value="11"/>
 <entry key="dataFraction" type="xdouble" value="1.0"/>
 <entry key="isDataSelectionWithReplacement" type="xboolean" value="true"/>
 <entry key="hardCodedRootColumn" type="xstring" isnull="true" value=""/>
@@ -19,7 +19,7 @@
 <entry key="columnAbsolutePerTree" type="xint" value="10"/>
 <entry key="isUseDifferentAttributesAtEachNode" type="xboolean" value="true"/>
 <entry key="nrModels" type="xint" value="500"/>
-<entry key="splitCriterion" type="xstring" value="InformationGainRatio"/>
+<entry key="splitCriterion" type="xstring" value="InformationGain"/>
 <entry key="missingValueHandling" type="xstring" value="XGBoost"/>
 <entry key="useAverageSplitPoints" type="xboolean" value="true"/>
 <entry key="useBinaryNominalSplits" type="xboolean" value="true"/>
@@ -87,7 +87,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 6812, Cols: 20"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 5002, Cols: 20"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
@@ -119,6 +119,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" value="filestore"/>
-<entry key="file_store_id" type="xstring" value="78f1be3c-858d-44ff-870f-55959b6bccb0"/>
+<entry key="file_store_id" type="xstring" value="1d070616-5aaf-44e7-83a0-983e9862c18f"/>
 </config>
 </config>

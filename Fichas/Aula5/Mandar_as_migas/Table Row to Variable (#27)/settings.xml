@@ -14,6 +14,18 @@
 <entry key="class" type="xstring" value="DOUBLE"/>
 <entry key="value" type="xdouble" value="0.0"/>
 </config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Row0"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Mean(Error in %)"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="21.623685767014326"/>
+</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
