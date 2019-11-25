@@ -1,8 +1,8 @@
-/Users/user/Desktop/17Nov1.csv
-/Users/user/Desktop/17Novv1.csv
-/Users/user/Desktop/16Novv1.csv
-/Users/user/Desktop/14Novv3.csv
-/Users/user/Desktop/14Novv2.csv
-/Users/user/Desktop/14Novv1.csv
-/Users/user/Desktop/predDT.csv
-/Users/user/Desktop/12Nov.csv
+/Users/user/Desktop/erro1895L.csv
+/Users/user/Desktop/17Novffff.csv
+/Users/user/Desktop/17NovFINAL.csv
+/Users/user/Desktop/17Nov7.csv
+/Users/user/Desktop/17Nov5.csv
+/Users/user/Desktop/17Nov4.csv
+/Users/user/Desktop/17Nov3.csv
+/Users/user/Desktop/17Nov2.csv

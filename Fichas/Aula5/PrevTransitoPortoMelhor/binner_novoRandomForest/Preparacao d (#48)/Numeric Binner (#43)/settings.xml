@@ -47,12 +47,19 @@
 <entry key="left_open" type="xboolean" value="false"/>
 <entry key="left_value" type="xdouble" value="17.0"/>
 <entry key="right_open" type="xboolean" value="true"/>
-<entry key="right_value" type="xdouble" value="20.0"/>
+<entry key="right_value" type="xdouble" value="19.0"/>
 </config>
 <config key="Periodo de transito medio_6">
 <entry key="bin_name" type="xstring" value="Periodo de transito medio"/>
 <entry key="left_open" type="xboolean" value="false"/>
-<entry key="left_value" type="xdouble" value="20.0"/>
+<entry key="left_value" type="xdouble" value="19.0"/>
+<entry key="right_open" type="xboolean" value="true"/>
+<entry key="right_value" type="xdouble" value="21.0"/>
+</config>
+<config key="periodo de transito quase nulo_7">
+<entry key="bin_name" type="xstring" value="periodo de transito quase nulo"/>
+<entry key="left_open" type="xboolean" value="false"/>
+<entry key="left_value" type="xdouble" value="21.0"/>
 <entry key="right_open" type="xboolean" value="true"/>
 <entry key="right_value" type="xdouble" value="Infinity"/>
 </config>
@@ -102,12 +109,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 5002, Cols: 20"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 6812, Cols: 24"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="5ddf3c65-3239-41fd-88e2-5b5892512856"/>
+<entry key="file_store_id" type="xstring" value="659c6994-cd09-4a3b-8350-08dbac54b110"/>
 </config>
 </config>

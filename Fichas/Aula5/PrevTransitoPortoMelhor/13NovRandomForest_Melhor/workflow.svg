@@ -339,13 +339,13 @@
                 <path d="M241 304 L286 304 L286 315 L241 315 L241 304 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath109">
-                <path d="M219 473 L326 473 L326 488 L219 488 L219 473 Z"/>
+                <path d="M199 473 L306 473 L306 488 L199 488 L199 473 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath110">
-                <path d="M219 504 L264 504 L264 515 L219 515 L219 504 Z"/>
+                <path d="M199 504 L244 504 L244 515 L199 515 L199 504 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath111">
-                <path d="M281 504 L326 504 L326 515 L281 515 L281 504 Z"/>
+                <path d="M261 504 L306 504 L306 515 L261 515 L261 504 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath112">
                 <path d="M-1 -1 L1346 -1 L1346 564 L-1 564 L-1 -1 Z"/>
@@ -1556,11 +1556,11 @@ YII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath108)"
                      points=" 248 305 257 309 248 314" stroke="none"/>
-            <text x="220" y="484" clip-path="url(#clipPath109)"
+            <text x="200" y="484" clip-path="url(#clipPath109)"
                   text-rendering="optimizeLegibility" stroke="none"
                   font-weight="bold" xml:space="preserve">Preparacao dados</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,256,494)" width="32"
+                   transform="matrix(1,0,0,1,236,494)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath23)" preserveAspectRatio="none"
                    height="32" x="0" y="0"
@@ -1570,7 +1570,7 @@ MAwEjcUGDBYxRKZiigxARrMwkkNFbTf30td/fle/3XMeInK5m1slR+Ye7r5H+Cm5
 MOkNmTZYl7gAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,264,502)" width="16"
+                   transform="matrix(1,0,0,1,244,502)" width="16"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath24)" preserveAspectRatio="none"
                    height="16" x="0" y="0"
@@ -1582,7 +1582,7 @@ TAz/gPDHjx8IF8NZ5UDcgeTMFqALaghHMRMDhYAF5hfGCqBjriN54QupCek91N8g
 N/2D8kkxABbipAKKw2AYGAAArXBAE6T1kEAAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,256,533)" width="32"
+                   transform="matrix(1,0,0,1,236,533)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath25)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="3"
@@ -1600,10 +1600,10 @@ fxjg6Ph4ahnKLJfZfjf0p5bh1tz3N8tQVYASEKq/gDGGSBDKPg2SKAhkH015W4qN
 YII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath110)"
-                     points=" 247 505 256 509 247 514" stroke="none"/>
+                     points=" 227 505 236 509 227 514" stroke="none"/>
             <polygon text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath111)"
-                     points=" 288 505 297 509 288 514" stroke="none"/>
+                     points=" 268 505 277 509 268 514" stroke="none"/>
             <text x="13" y="360" clip-path="url(#clipPath1)"
                   text-rendering="optimizeLegibility" stroke="none"
                   xml:space="preserve">Dados de treino</text><text x="354"
@@ -2852,11 +2852,11 @@ YII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath108)"
                      points=" 248 305 257 309 248 314" stroke="none"/>
-            <text x="220" y="484" clip-path="url(#clipPath109)"
+            <text x="200" y="484" clip-path="url(#clipPath109)"
                   text-rendering="optimizeLegibility" stroke="none"
                   font-weight="bold" xml:space="preserve">Preparacao dados</text><image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,256,494)" width="32"
+                   transform="matrix(1,0,0,1,236,494)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath23)" preserveAspectRatio="none"
                    height="32" x="0" y="0"
@@ -2866,7 +2866,7 @@ MAwEjcUGDBYxRKZiigxARrMwkkNFbTf30td/fle/3XMeInK5m1slR+Ye7r5H+Cm5
 MOkNmTZYl7gAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,264,502)" width="16"
+                   transform="matrix(1,0,0,1,244,502)" width="16"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath24)" preserveAspectRatio="none"
                    height="16" x="0" y="0"
@@ -2878,7 +2878,7 @@ TAz/gPDHjx8IF8NZ5UDcgeTMFqALaghHMRMDhYAF5hfGCqBjriN54QupCek91N8g
 N/2D8kkxABbipAKKw2AYGAAArXBAE6T1kEAAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,256,533)" width="32"
+                   transform="matrix(1,0,0,1,236,533)" width="32"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath25)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="3"
@@ -2896,153 +2896,154 @@ fxjg6Ph4ahnKLJfZfjf0p5bh1tz3N8tQVYASEKq/gDGGSBDKPg2SKAhkH015W4qN
 YII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath110)"
-                     points=" 247 505 256 509 247 514" stroke="none"/>
+                     points=" 227 505 236 509 227 514" stroke="none"/>
             <polygon text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath111)"
-                     points=" 288 505 297 509 288 514" stroke="none"/>
+                     points=" 268 505 277 509 268 514" stroke="none"/>
         </g>
-        <g fill="rgb(150,150,150)" text-rendering="optimizeLegibility"
-           font-size="11" stroke-linecap="butt" stroke="rgb(150,150,150)">
-            <line clip-path="url(#clipPath112)" fill="none" x1="917" x2="925"
-                  y1="49" y2="49"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="925" x2="958"
-                  y1="49" y2="49"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="958" x2="966"
-                  y1="49" y2="49"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="1017" x2="1025"
-                  y1="49" y2="49" stroke="rgb(255,75,75)"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="1025" x2="1058"
-                  y1="49" y2="49" stroke="rgb(255,75,75)"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="1058" x2="1066"
-                  y1="49" y2="49" stroke="rgb(255,75,75)"/>
+        <g stroke-linecap="butt" font-size="11" fill="rgb(255,75,75)"
+           text-rendering="optimizeLegibility"
+           font-family="&apos;.AppleSystemUIFont&apos;" stroke="rgb(255,75,75)">
             <line clip-path="url(#clipPath112)" fill="none" x1="1217" x2="1225"
-                  y1="49" y2="49" stroke="rgb(255,75,75)"/>
+                  y1="49" y2="49"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="1225" x2="1258"
-                  y1="49" y2="49" stroke="rgb(255,75,75)"/>
+                  y1="49" y2="49"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="1258" x2="1266"
-                  y1="49" y2="49" stroke="rgb(255,75,75)"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="657" x2="665"
-                  y1="179" y2="179"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="665" x2="698"
-                  y1="179" y2="299"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="698" x2="706"
-                  y1="299" y2="299"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="77" x2="85"
-                  y1="69" y2="69"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="85" x2="198"
-                  y1="69" y2="69"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="198" x2="206"
-                  y1="69" y2="69"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="77" x2="85"
-                  y1="509" y2="509"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="85" x2="238"
-                  y1="509" y2="509"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="238" x2="246"
-                  y1="509" y2="509"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="257" x2="265"
-                  y1="309" y2="309"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="265" x2="358"
-                  y1="309" y2="389"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="358" x2="366"
-                  y1="389" y2="389"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="417" x2="425"
-                  y1="399" y2="399"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="425" x2="458"
-                  y1="399" y2="479"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="458" x2="466"
-                  y1="479" y2="479"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="297" x2="305"
-                  y1="509" y2="509"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="305" x2="458"
-                  y1="509" y2="498"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="458" x2="466"
-                  y1="498" y2="498"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="397" x2="405"
-                  y1="89" y2="89" stroke="rgb(255,75,75)"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="405" x2="423"
-                  y1="89" y2="250" stroke="rgb(255,75,75)"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="423" x2="431"
-                  y1="250" y2="250" stroke="rgb(255,75,75)"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="604" x2="612"
-                  y1="487" y2="487"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="612" x2="625"
-                  y1="487" y2="487"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="625" x2="633"
-                  y1="487" y2="487"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="684" x2="692"
-                  y1="487" y2="487"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="692" x2="705"
-                  y1="487" y2="487"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="705" x2="713"
-                  y1="487" y2="487"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="1117" x2="1125"
-                  y1="39" y2="39"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="1125" x2="1145"
-                  y1="39" y2="48"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="1145" x2="1158"
-                  y1="48" y2="49"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="1158" x2="1166"
                   y1="49" y2="49"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="477" x2="485"
-                  y1="259" y2="259"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="485" x2="598"
-                  y1="259" y2="169"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="598" x2="606"
-                  y1="169" y2="169"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="764" x2="772"
-                  y1="487" y2="487"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="772" x2="838"
-                  y1="487" y2="489"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="838" x2="846"
-                  y1="489" y2="489"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="477" x2="485"
-                  y1="278" y2="278"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="485" x2="698"
-                  y1="278" y2="318"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="698" x2="706"
-                  y1="318" y2="318"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="77" x2="85"
-                  y1="309" y2="309"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="85" x2="198"
-                  y1="309" y2="309"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="198" x2="206"
-                  y1="309" y2="309"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="517" x2="525"
-                  y1="489" y2="489"/>
+                  y1="489" y2="489" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="525" x2="545"
-                  y1="489" y2="487"/>
+                  y1="489" y2="487" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="545" x2="553"
-                  y1="487" y2="487"/>
+                  y1="487" y2="487" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="277" x2="285"
+                  y1="509" y2="509" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="285" x2="458"
+                  y1="509" y2="498" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="458" x2="466"
+                  y1="498" y2="498" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="764" x2="772"
+                  y1="487" y2="487" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="772" x2="838"
+                  y1="487" y2="489" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="838" x2="846"
+                  y1="489" y2="489" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="757" x2="765"
-                  y1="309" y2="309"/>
+                  y1="309" y2="309" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="765" x2="758"
-                  y1="309" y2="109"/>
+                  y1="309" y2="109" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="758" x2="766"
-                  y1="109" y2="109"/>
+                  y1="109" y2="109" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="917" x2="925"
+                  y1="49" y2="49" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="925" x2="958"
+                  y1="49" y2="49" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="958" x2="966"
+                  y1="49" y2="49" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="77" x2="85"
+                  y1="509" y2="509" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="85" x2="218"
+                  y1="509" y2="509" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="218" x2="226"
+                  y1="509" y2="509" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="477" x2="485"
+                  y1="259" y2="259" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="485" x2="598"
+                  y1="259" y2="169" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="598" x2="606"
+                  y1="169" y2="169" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="817" x2="825"
-                  y1="118" y2="118"/>
+                  y1="118" y2="118" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="825" x2="858"
-                  y1="118" y2="49"/>
+                  y1="118" y2="49" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="858" x2="866"
-                  y1="49" y2="49"/>
+                  y1="49" y2="49" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="257" x2="265"
-                  y1="69" y2="69" stroke="rgb(255,75,75)"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="265" x2="343"
-                  y1="69" y2="70" stroke="rgb(255,75,75)"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="343" x2="351"
-                  y1="70" y2="70" stroke="rgb(255,75,75)"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="257" x2="265"
-                  y1="309" y2="309"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="265" x2="418"
-                  y1="309" y2="269"/>
-            <line clip-path="url(#clipPath112)" fill="none" x1="418" x2="426"
-                  y1="269" y2="269"/>
+                  y1="309" y2="309" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="265" x2="358"
+                  y1="309" y2="389" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="358" x2="366"
+                  y1="389" y2="389" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="77" x2="85"
+                  y1="69" y2="69" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="85" x2="198"
+                  y1="69" y2="69" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="198" x2="206"
+                  y1="69" y2="69" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="897" x2="905"
-                  y1="489" y2="489"/>
+                  y1="489" y2="489" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="905" x2="978"
-                  y1="489" y2="489"/>
+                  y1="489" y2="489" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath112)" fill="none" x1="978" x2="986"
-                  y1="489" y2="489"/>
+                  y1="489" y2="489" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="257" x2="265"
+                  y1="69" y2="69"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="265" x2="343"
+                  y1="69" y2="70"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="343" x2="351"
+                  y1="70" y2="70"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="257" x2="265"
+                  y1="309" y2="309" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="265" x2="418"
+                  y1="309" y2="269" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="418" x2="426"
+                  y1="269" y2="269" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="417" x2="425"
+                  y1="399" y2="399" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="425" x2="458"
+                  y1="399" y2="479" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="458" x2="466"
+                  y1="479" y2="479" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="77" x2="85"
+                  y1="309" y2="309" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="85" x2="198"
+                  y1="309" y2="309" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="198" x2="206"
+                  y1="309" y2="309" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="1117" x2="1125"
+                  y1="39" y2="39" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="1125" x2="1145"
+                  y1="39" y2="48" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="1145" x2="1158"
+                  y1="48" y2="49" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="1158" x2="1166"
+                  y1="49" y2="49" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="1017" x2="1025"
+                  y1="49" y2="49"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="1025" x2="1058"
+                  y1="49" y2="49"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="1058" x2="1066"
+                  y1="49" y2="49"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="657" x2="665"
+                  y1="179" y2="179" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="665" x2="698"
+                  y1="179" y2="299" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="698" x2="706"
+                  y1="299" y2="299" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="604" x2="612"
+                  y1="487" y2="487" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="612" x2="625"
+                  y1="487" y2="487" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="625" x2="633"
+                  y1="487" y2="487" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="397" x2="405"
+                  y1="89" y2="89"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="405" x2="423"
+                  y1="89" y2="250"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="423" x2="431"
+                  y1="250" y2="250"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="684" x2="692"
+                  y1="487" y2="487" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="692" x2="705"
+                  y1="487" y2="487" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="705" x2="713"
+                  y1="487" y2="487" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="477" x2="485"
+                  y1="278" y2="278" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="485" x2="698"
+                  y1="278" y2="318" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath112)" fill="none" x1="698" x2="706"
+                  y1="318" y2="318" stroke="rgb(150,150,150)"/>
         </g>
     </g>
 </svg>

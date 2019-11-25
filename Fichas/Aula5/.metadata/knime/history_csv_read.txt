@@ -1,8 +1,8 @@
+/Users/user/Documents/GitHub/SBS/Fichas/Aula5/Shelters/data/train.csv
+/Users/user/Documents/GitHub/SBS/Fichas/Aula5/PreverTransitoPorto/data/training_data.csv
+/Users/user/Documents/GitHub/SBS/Fichas/Aula5/Ficha5/training_data.csv
 /Users/user/Documents/GitHub/SBS/Fichas/Aula5/PrevTransitoPortoMelhor/data/training_data.csv
 /Users/user/Documents/GitHub/SBS/Fichas/Aula5/Ficha5/test_data.csv
-/Users/user/Documents/GitHub/SBS/Fichas/Aula5/Ficha5/training_data.csv
 /Users/user/Documents/GitHub/SBS/Fichas/Aula5/PreverTransitoPorto/data/test_data.csv
-/Users/user/Documents/GitHub/SBS/Fichas/Aula5/PreverTransitoPorto/data/training_data.csv
 /Users/user/Documents/GitHub/SBS/Fichas/Aula5/PreverTransitoPorto/test_data.csv
 /Users/user/Documents/GitHub/SBS/Fichas/Aula5/PreverTransitoPorto/training_data.csv
-/Users/user/Documents/GitHub/SBS/Aula1/ResolucaoFicha1/winequality-red.csv

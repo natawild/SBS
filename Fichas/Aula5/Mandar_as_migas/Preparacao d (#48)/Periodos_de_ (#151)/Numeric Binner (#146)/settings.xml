@@ -26,26 +26,26 @@
 <entry key="left_open" type="xboolean" value="true"/>
 <entry key="left_value" type="xdouble" value="9.0"/>
 <entry key="right_open" type="xboolean" value="false"/>
-<entry key="right_value" type="xdouble" value="10.0"/>
+<entry key="right_value" type="xdouble" value="11.0"/>
 </config>
 <config key="Medio_3">
 <entry key="bin_name" type="xstring" value="Medio"/>
 <entry key="left_open" type="xboolean" value="true"/>
-<entry key="left_value" type="xdouble" value="10.0"/>
+<entry key="left_value" type="xdouble" value="11.0"/>
 <entry key="right_open" type="xboolean" value="true"/>
-<entry key="right_value" type="xdouble" value="16.0"/>
+<entry key="right_value" type="xdouble" value="13.0"/>
 </config>
 <config key="Elevado_4">
 <entry key="bin_name" type="xstring" value="Elevado"/>
 <entry key="left_open" type="xboolean" value="false"/>
-<entry key="left_value" type="xdouble" value="16.0"/>
+<entry key="left_value" type="xdouble" value="13.0"/>
 <entry key="right_open" type="xboolean" value="false"/>
-<entry key="right_value" type="xdouble" value="18.0"/>
+<entry key="right_value" type="xdouble" value="17.0"/>
 </config>
-<config key="Medio_5">
-<entry key="bin_name" type="xstring" value="Medio"/>
+<config key="Elevado_5">
+<entry key="bin_name" type="xstring" value="Elevado"/>
 <entry key="left_open" type="xboolean" value="true"/>
-<entry key="left_value" type="xdouble" value="18.0"/>
+<entry key="left_value" type="xdouble" value="17.0"/>
 <entry key="right_open" type="xboolean" value="false"/>
 <entry key="right_value" type="xdouble" value="19.0"/>
 </config>
@@ -54,12 +54,12 @@
 <entry key="left_open" type="xboolean" value="true"/>
 <entry key="left_value" type="xdouble" value="19.0"/>
 <entry key="right_open" type="xboolean" value="false"/>
-<entry key="right_value" type="xdouble" value="20.0"/>
+<entry key="right_value" type="xdouble" value="21.0"/>
 </config>
 <config key="Quase nulo_7">
 <entry key="bin_name" type="xstring" value="Quase nulo"/>
 <entry key="left_open" type="xboolean" value="true"/>
-<entry key="left_value" type="xdouble" value="20.0"/>
+<entry key="left_value" type="xdouble" value="21.0"/>
 <entry key="right_open" type="xboolean" value="true"/>
 <entry key="right_value" type="xdouble" value="Infinity"/>
 </config>
@@ -71,7 +71,11 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Bin name &quot;Quase nulo&quot; is used for different intervals."/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.base.node.preproc.binner.BinnerNodeFactory"/>
 <entry key="node-name" type="xstring" value="Numeric Binner"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -84,16 +88,19 @@
 <entry key="node-feature-version" type="xstring" value="4.0.1.v201908131444"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Numeric Binner"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 3838, Cols: 21"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="9b6111cc-1efe-457e-a9e5-65b59f4aa289"/>
 </config>
 </config>

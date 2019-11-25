@@ -36,13 +36,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="RowID"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Row0"/>
+<entry key="value" type="xstring" value="Row1"/>
 </config>
 <config key="Variable_7">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="split_crit"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="InformationGain"/>
+<entry key="value" type="xstring" value="InformationGainRatio"/>
 </config>
 <config key="Variable_8">
 <entry key="type" type="xstring" value="variable"/>
@@ -54,7 +54,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="currentIteration"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
+<entry key="value" type="xint" value="1"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -110,7 +110,7 @@
 </config>
 </config>
 <config key="filestores">
-<entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="a7f69dde-a92f-4760-a4ab-dc85a7eb2e32"/>
+<entry key="file_store_location" type="xstring" value="filestore"/>
+<entry key="file_store_id" type="xstring" value="85975f25-ad0c-405a-aea8-5b90d5fcddcb"/>
 </config>
 </config>
